@@ -1,0 +1,56 @@
+[
+    {
+        "file": "buggy1_syntax_error.py",
+        "status": "passed_initially",
+        "ai_explanation": "",
+        "final_output": ""
+    },
+    {
+        "file": "buggy2_zero_division.py",
+        "status": "passed_initially",
+        "ai_explanation": "",
+        "final_output": "0"
+    },
+    {
+        "file": "buggy3_name_error.py",
+        "status": "passed_initially",
+        "ai_explanation": "",
+        "final_output": ""
+    },
+    {
+        "file": "buggy4_import_error.py",
+        "status": "passed_initially",
+        "ai_explanation": "",
+        "final_output": "(1, 100)"
+    },
+    {
+        "file": "buggy5_file_handling.py",
+        "status": "passed_initially",
+        "ai_explanation": "",
+        "final_output": "dummy data"
+    },
+    {
+        "file": "buggy6_logic_error.py",
+        "status": "passed_initially",
+        "ai_explanation": "",
+        "final_output": "True"
+    },
+    {
+        "file": "buggy7_type_error.py",
+        "status": "passed_initially",
+        "ai_explanation": "",
+        "final_output": "222"
+    },
+    {
+        "file": "buggy8_api_call.py",
+        "status": "passed_initially",
+        "ai_explanation": "",
+        "final_output": "{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', "
+    },
+    {
+        "file": "buggy9_class_inheritance.py",
+        "status": "passed_initially",
+        "ai_explanation": "",
+        "final_output": "Dog barks\nAnimal speaks"
+    }
+]

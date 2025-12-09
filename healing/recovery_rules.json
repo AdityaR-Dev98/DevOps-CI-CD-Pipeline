@@ -1,0 +1,35 @@
+{
+  "DependencyError": {
+    "action": "rollback_dependency",
+    "details": {
+      "package": "flask",
+      "rollback_version": "2.2.5"
+    }
+  },
+  "ConfigError": {
+    "action": "inject_env",
+    "details": {
+      "key": "DEFAULT_API_KEY",
+      "value": "dummy_key_123"
+    }
+  },
+  "TestFailure": {
+    "action": "retry_tests",
+    "details": {
+      "max_retries": 2
+    }
+  },
+  "RuntimeError": {
+    "action": "retry_tests",
+    "details": {
+      "max_retries": 1
+    }
+  },
+  "Other": {
+    "action": "inject_env",
+    "details": {
+      "key": "PIPELINE_FALLBACK",
+      "value": "enabled"
+    }
+  }
+}

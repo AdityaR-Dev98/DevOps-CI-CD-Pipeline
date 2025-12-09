@@ -1,0 +1,113 @@
+name: AI Self-Healing CI/CD Pipeline
+
+on:
+  push:
+    branches:
+      - main
+  pull_request:
+  workflow_dispatch:
+
+jobs:
+  ai_self_healing:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: write
+      pull-requests: write
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: "3.10"
+
+      - name: Install dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install -r requirements.txt || true
+          pip install torch transformers requests pytest
+
+      - name: Run Self-Healing Test Script (buggy_examples only)
+        run: |
+          mkdir -p logs/pipeline_logs
+          echo "Running custom AI test runner..."
+          python run_ai_self_healing_test.py buggy_examples > logs/pipeline_logs/test_output.log || true
+
+      - name: Run AI Auto-Fix (Only for buggy_examples)
+        run: |
+          echo "Running AI self-healing auto-fix..."
+          python -m healing.auto_fix buggy_examples || true
+
+      - name: Commit AI Fixes (if any)
+        run: |
+          echo "Checking for AI-modified files..."
+          git config --global user.name "github-actions[bot]"
+          git config --global user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add buggy_examples logs || true
+          if git diff --cached --quiet; then
+            echo "No AI fixes to commit."
+          else
+            git commit -m "Auto-fixed issues via AI Self-Healing CI/CD"
+          fi
+
+      - name: Create AI Fix Pull Request
+        id: cpr
+        uses: peter-evans/create-pull-request@v6
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          commit-message: Auto-fixed issues via AI Self-Healing CI/CD
+          title: AI Self-Healing Fixes Detected
+          body: |
+            This pull request was automatically created by the **AI Self-Healing CI/CD pipeline**.
+
+            **What Happened**
+            - Detected errors inside `buggy_examples` via run_ai_self_healing_test.py
+            - AI applied automatic corrections using TinyLlama
+            - Relevant logs:
+              - `logs/ai_suggestions.log`
+              - `logs/pipeline_logs/test_output.log`
+              - `logs/pipeline_logs/auto_fix.log`
+
+            _Generated automatically by the AI Self-Healing system._
+          branch: ai-fix/${{ github.run_id }}
+          delete-branch: true
+
+      - name: Add Label to AI Pull Request
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        uses: actions-ecosystem/action-add-labels@v1
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          number: ${{ steps.cpr.outputs.pull-request-number }}
+          repo: prakharr5/ci-cd-pipeline
+          labels: |
+            ai-generated
+            buggy-fix
+
+      - name: Comment AI Fix Summary on PR
+        if: ${{ steps.cpr.outputs.pull-request-number }}
+        uses: peter-evans/create-or-update-comment@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          issue-number: ${{ steps.cpr.outputs.pull-request-number }}
+          body: |
+            ### AI Self-Healing Summary
+
+            **AI Fix Overview**
+            - Detected failing buggy code via `run_ai_self_healing_test.py`
+            - AI auto-fixed the issues using TinyLlama
+            - Pull request created: [${{ steps.cpr.outputs.pull-request-url }}](${{ steps.cpr.outputs.pull-request-url }})
+
+            **AI Suggestions:**
+            ```
+            $(grep -E "AI Suggestion|AI Explanation" logs/ai_suggestions.log || echo "No suggestions logged")
+            ```
+
+            **Auto-Fix Log:**
+            ```
+            $(tail -n 20 logs/pipeline_logs/auto_fix.log || echo "No auto-fix logs found")
+            ```
+
+            ---
+            _Generated automatically by the AI Self-Healing CI/CD system._

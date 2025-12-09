@@ -1,0 +1,987 @@
+2025-10-27 19:37:47 [SUGGESTION] Target file not found for issue: AssertionError: expected >= but got ==
+2025-10-27 20:24:40 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py", line 10, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py", line 5, in process_data
+    config = json.load(open("config.json"))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+
+
+Code (or snippet) possibly responsible:
+import json
+
+def process_data(data):
+    avg = sum(data) / len(data)
+    config = json.load(open("config.json"))
+    print("Configuration loaded:", config["version"])
+    return avg * config["scale"]
+
+numbers = [1, 2, 3, 4, 5]
+result = process_data(numbers)
+print("Result:", result)
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+Line: 10
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.
+2025-10-27 20:24:40 [SUGGESTION] AI Explanation: AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.
+2025-10-27 20:24:59 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py (backup saved as C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.bak)
+2025-10-27 20:24:59 [SUGGESTION] AI Suggestion: The following error occurred:
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+
+
+Code (or snippet) possibly responsible:
+def add_numbers(a, b)
+    return a + b
+
+print(add_numbers(5, 10))
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+Line: 1
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.
+2025-10-27 20:24:59 [SUGGESTION] AI Explanation: AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.
+2025-10-27 20:25:04 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py (backup saved as C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.bak)
+2025-10-27 20:25:05 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py", line 4, in <module>
+    print(calculate_average([]))
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py", line 2, in calculate_average
+    return sum(numbers) / len(numbers)
+           ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+
+Code (or snippet) possibly responsible:
+def calculate_average(numbers):
+    return sum(numbers) / len(numbers)
+
+print(calculate_average([]))
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+Line: 4
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.
+2025-10-27 20:25:05 [SUGGESTION] AI Explanation: AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.
+2025-10-27 20:25:06 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py (backup saved as C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.bak)
+2025-10-27 20:25:06 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py", line 4, in <module>
+    show_name()
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py", line 2, in show_name
+    print("Hello", username)
+                   ^^^^^^^^
+NameError: name 'username' is not defined
+
+
+Code (or snippet) possibly responsible:
+def show_name():
+    print("Hello", username)
+
+show_name()
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+Line: 4
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.
+2025-10-27 20:25:06 [SUGGESTION] AI Explanation: AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.
+2025-10-27 20:25:08 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py (backup saved as C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.bak)
+2025-10-27 20:25:09 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py", line 4, in <module>
+    print(generate_random())
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py", line 2, in generate_random
+    return random.randint(1, 100)
+           ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+
+
+Code (or snippet) possibly responsible:
+def generate_random():
+    return random.randint(1, 100)
+
+print(generate_random())
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+Line: 4
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.
+2025-10-27 20:25:09 [SUGGESTION] AI Explanation: AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.
+2025-10-27 20:25:10 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py (backup saved as C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.bak)
+2025-10-27 20:25:10 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py", line 2, in read_data
+    with open("nonexistent_file.txt", "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+
+
+Code (or snippet) possibly responsible:
+def read_data():
+    with open("nonexistent_file.txt", "r") as f:
+        return f.read()
+
+print(read_data())
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+Line: 5
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.
+2025-10-27 20:25:10 [SUGGESTION] AI Explanation: AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.
+2025-10-27 20:25:11 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py (backup saved as C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.bak)
+2025-10-27 20:25:13 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py", line 8, in <module>
+    print(get_user_data(1))
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py", line 6, in get_user_data
+    return response.json()["non_existent_key"]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'non_existent_key'
+
+
+Code (or snippet) possibly responsible:
+import requests
+
+def get_user_data(user_id):
+    url = f"https://jsonplaceholder.typicode.com/users/{user_id}"
+    response = requests.get(url)
+    return response.json()["non_existent_key"]
+
+print(get_user_data(1))
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py
+Line: 8
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.
+2025-10-27 20:25:13 [SUGGESTION] AI Explanation: AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.
+2025-10-27 20:25:15 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py (backup saved as C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.bak)
+2025-10-27 20:25:15 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py", line 11, in <module>
+    d.bark()
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py", line 8, in bark
+    super().speak(self)
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+
+
+Code (or snippet) possibly responsible:
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+        super().speak(self)
+
+d = Dog()
+d.bark()
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py
+Line: 11
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.
+2025-10-27 20:25:15 [SUGGESTION] AI Explanation: AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.
+2025-10-27 20:25:16 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py (backup saved as C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.bak)
+2025-10-27 20:42:49 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+    exec(open(script_path, encoding="utf-8").read())
+  File "<string>", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+
+
+Code possibly responsible:
+The following error occurred:
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+
+
+Code (or snippet) possibly responsible:
+def add_numbers(a, b)
+    return a + b
+
+print(add_numbers(5, 10))
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+Line: 1
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.
+print(add_numbers(5, 10))
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+exec(open(script_path, encoding="utf-8").read())
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+Line: 1
+
+Suggest one code fix (with corrected line) and explain why it solves the issue.
+def add_numbers(a, b)
+    return a + b
+
+print(add_numbers(5, 10))
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+exec(open(script_path, encoding="utf-8").read())
+
+
+File: C:\Users\prakh\Downloads
+2025-10-27 20:42:49 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-27 20:42:49 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-27 20:42:49 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in calculate_average
+ZeroDivisionError: division by zero
+
+
+Code possibly responsible:
+def calculate_average(numbers):
+    return sum(numbers) / len(numbers)
+
+print(calculate_average([]))
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-27 20:42:49 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-27 20:42:49 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-27 20:42:50 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 5, in <module>
+  File "<string>", line 3, in show_name
+NameError: name 'username' is not defined
+
+
+Code possibly responsible:
+
+def show_name():
+    print("Hello", username)
+
+show_name()
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-27 20:42:50 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-27 20:42:50 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-27 20:42:50 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 5, in <module>
+  File "<string>", line 3, in generate_random
+NameError: name 'random' is not defined. Did you forget to import 'random'
+
+
+Code possibly responsible:
+
+def generate_random():
+    return random.randint(1, 100)
+
+print(generate_random())
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-27 20:42:50 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-27 20:42:50 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-27 20:42:51 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 9, in <module>
+  File "<string>", line 6, in get_user_data
+NameError: name 'requests' is not defined
+
+
+Code possibly responsible:
+
+import requests
+
+def get_user_data(user_id):
+    url = f"https://jsonplaceholder.typicode.com/users/{user_id}"
+    response = requests.get(url)
+    return response.json()["non_existent_key"]
+
+print(get_user_data(1))
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-27 20:42:51 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-27 20:42:51 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-27 20:42:51 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 12, in <module>
+  File "<string>", line 9, in bark
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+
+
+Code possibly responsible:
+
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+        super().speak(self)
+
+d = Dog()
+d.bark()
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-27 20:42:51 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-27 20:42:51 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-27 20:42:52 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 6, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 11, in <module>
+  File "<string>", line 6, in process_data
+NameError: name 'json' is not defined. Did you forget to import 'json'
+
+
+Code possibly responsible:
+
+import json
+
+def process_data(data):
+    avg = sum(data) / len(data)
+    config = json.load(open("config.json"))
+    print("Configuration loaded:", config["version"])
+    return avg * config["scale"]
+
+numbers = [1, 2, 3, 4, 5]
+result = process_data(numbers)
+print("Result:", result)
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-27 20:42:52 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-27 20:42:52 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-28 18:58:49 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+    exec(open(script_path, encoding="utf-8").read(), {})
+  File "<string>", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+
+
+Code possibly responsible:
+def add_numbers(a, b)
+    return a + b
+
+print(add_numbers(5, 10))
+
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 10
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 18:58:49 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 18:58:49 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-28 18:58:49 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 4, in <module>
+  File "<string>", line 2, in calculate_average
+ZeroDivisionError: division by zero
+
+
+Code possibly responsible:
+def calculate_average(numbers):
+    return sum(numbers) / len(numbers)
+
+print(calculate_average([]))
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 10
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 18:58:49 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 18:58:49 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-28 18:58:50 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 5, in <module>
+  File "<string>", line 3, in show_name
+NameError: name 'username' is not defined
+
+
+Code possibly responsible:
+
+def show_name():
+    print("Hello", username)
+
+show_name()
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 10
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 18:58:50 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 18:58:50 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-28 18:58:50 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 5, in <module>
+  File "<string>", line 3, in generate_random
+NameError: name 'random' is not defined. Did you forget to import 'random'
+
+
+Code possibly responsible:
+
+def generate_random():
+    return random.randint(1, 100)
+
+print(generate_random())
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 10
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 18:58:50 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 18:58:50 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-28 18:58:51 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 6, in <module>
+  File "<string>", line 3, in read_data
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+
+
+Code possibly responsible:
+
+def read_data():
+    with open("nonexistent_file.txt", "r") as f:
+        return f.read()
+
+print(read_data())
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 10
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 18:58:51 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 18:58:51 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-28 18:58:52 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 9, in <module>
+  File "<string>", line 7, in get_user_data
+KeyError: 'non_existent_key'
+
+
+Code possibly responsible:
+
+import requests
+
+def get_user_data(user_id):
+    url = f"https://jsonplaceholder.typicode.com/users/{user_id}"
+    response = requests.get(url)
+    return response.json()["non_existent_key"]
+
+print(get_user_data(1))
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 10
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 18:58:52 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 18:58:52 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-28 18:58:52 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 12, in <module>
+  File "<string>", line 9, in bark
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+
+
+Code possibly responsible:
+
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+        super().speak(self)
+
+d = Dog()
+d.bark()
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 10
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 18:58:52 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 18:58:52 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-28 18:58:53 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+    File "C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py", line 10, in test_buggy_script
+          ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "<string>", line 11, in <module>
+  File "<string>", line 6, in process_data
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+
+
+Code possibly responsible:
+
+import json
+
+def process_data(data):
+    avg = sum(data) / len(data)
+    config = json.load(open("config.json"))
+    print("Configuration loaded:", config["version"])
+    return avg * config["scale"]
+
+numbers = [1, 2, 3, 4, 5]
+result = process_data(numbers)
+print("Result:", result)
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py
+Line: 10
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 18:58:53 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 18:58:53 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\test_ai_auto_fix.bak)
+2025-10-28 19:00:42 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py", line 11, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py", line 6, in process_data
+    config = json.load(open("config.json"))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+
+
+Code possibly responsible:
+
+import json
+
+def process_data(data):
+    avg = sum(data) / len(data)
+    config = json.load(open("config.json"))
+    print("Configuration loaded:", config["version"])
+    return avg * config["scale"]
+
+numbers = [1, 2, 3, 4, 5]
+result = process_data(numbers)
+print("Result:", result)
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+Line: 11
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:00:42 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:00:42 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.bak)
+2025-10-28 19:00:43 [SUGGESTION] AI Suggestion: The following error occurred:
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+
+
+Code possibly responsible:
+def add_numbers(a, b)
+    return a + b
+
+print(add_numbers(5, 10))
+
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+Line: 1
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:00:43 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:00:43 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.bak)
+2025-10-28 19:00:43 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py", line 4, in <module>
+    print(calculate_average([]))
+          ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py", line 2, in calculate_average
+    return sum(numbers) / len(numbers)
+           ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+
+Code possibly responsible:
+def calculate_average(numbers):
+    return sum(numbers) / len(numbers)
+
+print(calculate_average([]))
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+Line: 4
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:00:43 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:00:43 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.bak)
+2025-10-28 19:00:44 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py", line 5, in <module>
+    show_name()
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py", line 3, in show_name
+    print("Hello", username)
+                   ^^^^^^^^
+NameError: name 'username' is not defined
+
+
+Code possibly responsible:
+
+def show_name():
+    print("Hello", username)
+
+show_name()
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+Line: 5
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:00:44 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:00:44 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.bak)
+2025-10-28 19:00:44 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py", line 5, in <module>
+    print(generate_random())
+          ^^^^^^^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py", line 3, in generate_random
+    return random.randint(1, 100)
+           ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+
+
+Code possibly responsible:
+
+def generate_random():
+    return random.randint(1, 100)
+
+print(generate_random())
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+Line: 5
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:00:44 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:00:44 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.bak)
+2025-10-28 19:00:45 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py", line 6, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py", line 3, in read_data
+    with open("nonexistent_file.txt", "r") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+
+
+Code possibly responsible:
+
+def read_data():
+    with open("nonexistent_file.txt", "r") as f:
+        return f.read()
+
+print(read_data())
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:00:45 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:00:45 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.bak)
+2025-10-28 19:00:47 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py", line 9, in <module>
+    print(get_user_data(1))
+          ^^^^^^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py", line 7, in get_user_data
+    return response.json()["non_existent_key"]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'non_existent_key'
+
+
+Code possibly responsible:
+
+import requests
+
+def get_user_data(user_id):
+    url = f"https://jsonplaceholder.typicode.com/users/{user_id}"
+    response = requests.get(url)
+    return response.json()["non_existent_key"]
+
+print(get_user_data(1))
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py
+Line: 9
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:00:47 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:00:47 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.bak)
+2025-10-28 19:00:47 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py", line 12, in <module>
+    d.bark()
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py", line 9, in bark
+    super().speak(self)
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+
+
+Code possibly responsible:
+
+class Animal:
+    def speak(self):
+        print("Animal speaks")
+
+class Dog(Animal):
+    def bark(self):
+        print("Dog barks")
+        super().speak(self)
+
+d = Dog()
+d.bark()
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py
+Line: 12
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:00:47 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:00:47 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.bak)
+2025-10-28 19:11:58 [SUGGESTION] AI Suggestion: The following error occurred:
+Traceback (most recent call last):
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py", line 10, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py", line 5, in process_data
+    config = json.load(open("config.json"))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+
+
+Code possibly responsible:
+import json
+
+def process_data(data):
+    avg = sum(data) / len(data)
+    config = json.load(open("config.json"))
+    print("Configuration loaded:", config["version"])
+    return avg * config["scale"]
+
+numbers = [1, 2, 3, 4, 5]
+result = process_data(numbers)
+print("Result:", result)
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+Line: 10
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:11:58 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:11:58 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.bak)
+2025-10-28 19:12:37 [SUGGESTION] AI Suggestion: The following error occurred:
+  File "C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py", line 2
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+
+
+Code possibly responsible:
+
+def add_numbers(a, b)
+    return a + b
+
+print(add_numbers(5, 10))
+
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+Line: 2
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.
+2025-10-28 19:12:37 [SUGGESTION] AI Explanation: This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.
+2025-10-28 19:12:37 [SUGGESTION] Applied AI fix in C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py (backup saved at C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.bak)
+2025-10-28 19:17:25 [SUGGESTION] Generated AI fix for C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py (line 1)
+2025-10-28 19:17:58 [SUGGESTION] Generated AI fix for C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py (line 1)
+2025-10-28 19:18:47 [SUGGESTION] Generated AI fix for C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py (line 5)
+2025-10-28 19:19:45 [SUGGESTION] Generated AI fix for C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py (line 4)
+2025-10-28 19:30:00 [SUGGESTION] Generated AI fix for C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py (line 1)
+2025-10-28 19:35:01 [SUGGESTION] Generated AI fix for C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py (line 10)
+2025-10-28 19:35:34 [SUGGESTION] Generated AI fix for C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py (line 1)
+2025-10-28 22:21:01 [AI-FIX] [ERROR] AI model failure: 'DynamicCache' object has no attribute 'seen_tokens'
+2025-10-28 22:21:01 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination_fixed.py
+2025-10-28 22:21:15 [AI-FIX] [ERROR] AI model failure: 'DynamicCache' object has no attribute 'seen_tokens'
+2025-10-28 22:21:15 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error_fixed.py
+2025-10-28 22:21:23 [AI-FIX] [ERROR] AI model failure: 'DynamicCache' object has no attribute 'seen_tokens'
+2025-10-28 22:21:23 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division_fixed.py
+2025-10-28 22:21:24 [AI-FIX] [ERROR] AI model failure: 'DynamicCache' object has no attribute 'seen_tokens'
+2025-10-28 22:21:24 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error_fixed.py
+2025-10-28 22:21:26 [AI-FIX] [ERROR] AI model failure: 'DynamicCache' object has no attribute 'seen_tokens'
+2025-10-28 22:21:26 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error_fixed.py
+2025-10-28 22:21:26 [AI-FIX] [ERROR] AI model failure: 'DynamicCache' object has no attribute 'seen_tokens'
+2025-10-28 22:21:26 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling_fixed.py
+2025-10-28 22:21:28 [AI-FIX] [ERROR] AI model failure: 'DynamicCache' object has no attribute 'seen_tokens'
+2025-10-28 22:21:28 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call_fixed.py
+2025-10-28 22:21:30 [AI-FIX] [ERROR] AI model failure: 'DynamicCache' object has no attribute 'seen_tokens'
+2025-10-28 22:21:30 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance_fixed.py
+2025-10-28 23:31:28 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+2025-10-28 23:31:54 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-10-28 23:32:42 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+2025-10-28 23:32:56 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-10-28 23:33:24 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+2025-10-28 23:35:16 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+2025-10-28 23:35:40 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py
+2025-10-28 23:37:05 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py
+2025-10-28 23:44:31 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+2025-10-28 23:44:45 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-10-28 23:45:11 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+2025-10-28 23:45:22 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py
+2025-10-28 23:46:26 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+2025-10-28 23:47:06 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+2025-10-28 23:47:11 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py
+2025-10-29 00:27:38 [AI-FIX] [ERROR] AI model failure: test_suggest_code_fix.<locals>.DummyPipeline.__call__() got an unexpected keyword argument 'temperature'
+2025-10-29 00:57:36 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-10-29 00:57:42 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+2025-10-29 00:57:51 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+2025-10-29 01:03:46 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-10-29 01:03:50 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+2025-10-29 01:03:57 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+2025-10-29 01:10:42 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-10-29 01:10:47 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+2025-10-29 01:10:54 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+2025-10-29 01:15:29 [AI-FIX] Applied rule-based fix for EOFError (safe input fallback).
+2025-10-29 01:15:29 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-10-29 01:15:30 [AI-FIX] Applied rule-based fix for FileNotFoundError (graceful file handling).
+2025-10-29 01:15:30 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+2025-10-29 01:15:31 [AI-FIX] Applied rule-based fix for FileNotFoundError (graceful file handling).
+2025-10-29 01:15:31 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+2025-10-29 01:22:28 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+2025-10-29 01:22:30 [AI-FIX] Applied rule-based fix for FileNotFoundError (graceful file handling).
+2025-10-29 01:22:30 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+2025-10-29 01:25:40 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+2025-10-29 01:30:24 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-10-29 01:30:28 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+2025-10-29 01:31:43 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py
+2025-10-29 01:56:00 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-10-29 01:56:44 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-10-29 01:57:24 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-10-29 02:21:44 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-10-29 02:21:47 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+2025-10-29 02:21:51 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-10-29 02:21:54 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+2025-10-29 02:21:59 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+2025-10-29 02:22:02 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py
+2025-10-29 02:28:08 [AI-FIX] Applied rule-based fix for FileNotFoundError (graceful file handling).
+2025-10-29 02:28:08 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-10-29 02:29:48 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-10-29 02:30:51 [AI-FIX] Applied rule-based fix for FileNotFoundError (graceful file handling).
+2025-10-29 02:30:51 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-10-29 09:54:15 [AI-FIX] Applied rule-based fix for FileNotFoundError (graceful file handling).
+2025-10-29 09:54:15 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-10-29 09:54:23 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+2025-10-29 09:54:29 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py
+2025-11-14 16:21:05 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-11-14 16:21:09 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py
+2025-11-17 00:26:29 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-11-17 00:26:34 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+2025-11-17 00:26:36 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-11-17 00:26:38 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+2025-11-17 00:26:41 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py
+2025-11-17 00:26:43 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy7_type_error.py
+2025-11-17 00:27:28 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-11-17 00:27:57 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-11-17 00:28:30 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-11-17 00:40:33 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-11-17 00:40:39 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+2025-11-17 00:40:41 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-11-17 00:40:43 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+2025-11-17 00:40:46 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py
+2025-11-17 12:01:00 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-11-17 12:01:05 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+2025-11-17 12:01:07 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+2025-11-17 12:01:08 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+2025-11-17 12:02:25 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+2025-11-17 12:02:29 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+2025-11-17 12:02:31 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+2025-11-17 12:02:35 [AI-FIX] Fixed code saved to: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py

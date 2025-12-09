@@ -1,0 +1,74 @@
+[
+    {
+        "file": "buggy10_complex_combination.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy10_complex_combination.py\", line 11, in <module>\n    result = process_data(numbers)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy10_complex_combination.py\", line 5, in process_data\n    with open(\"config.json\") as f:\n         ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'config.json'\n",
+        "ai_explanation": "AI analyzed the error and generated a corrected version, saved separately.",
+        "final_status": "failed_after_fix",
+        "final_output": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\fixed_examples\\buggy10_complex_combination.py\", line 11, in <module>\n    result = process_data(numbers)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\fixed_examples\\buggy10_complex_combination.py\", line 5, in process_data\n    with open(\"config.json\") as f:\n         ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'config.json'\n",
+        "ai_applied": true
+    },
+    {
+        "file": "buggy1_syntax_error.py",
+        "initial_status": "passed_initially",
+        "final_status": "passed",
+        "ai_used": false
+    },
+    {
+        "file": "buggy2_zero_division.py",
+        "initial_status": "passed_initially",
+        "final_status": "passed",
+        "ai_used": false
+    },
+    {
+        "file": "buggy3_name_error.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy3_name_error.py\", line 5, in <module>\n    show_name()\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy3_name_error.py\", line 3, in show_name\n    print(username)\n          ^^^^^^^^\nNameError: name 'username' is not defined\n",
+        "ai_explanation": "AI analyzed the error and generated a corrected version, saved separately.",
+        "final_status": "failed_after_fix",
+        "final_output": "Command '['C:\\\\Users\\\\prakh\\\\AppData\\\\Local\\\\Programs\\\\Python\\\\Python312\\\\python.exe', 'fixed_examples\\\\buggy3_name_error.py']' timed out after 15 seconds",
+        "ai_applied": true
+    },
+    {
+        "file": "buggy4_import_error.py",
+        "initial_status": "passed_initially",
+        "final_status": "passed",
+        "ai_used": false
+    },
+    {
+        "file": "buggy5_file_handling.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy5_file_handling.py\", line 5, in <module>\n    print(read_data())\n          ^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy5_file_handling.py\", line 2, in read_data\n    with open(\"nonexistent_file.txt\", \"r\") as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'\n",
+        "ai_explanation": "AI analyzed the error and generated a corrected version, saved separately.",
+        "final_status": "failed_after_fix",
+        "final_output": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\fixed_examples\\buggy5_file_handling.py\", line 5, in <module>\n    print(read_data())\n          ^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\fixed_examples\\buggy5_file_handling.py\", line 2, in read_data\n    with open(\"nonexistent_file.txt\", \"r\") as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'\n",
+        "ai_applied": true
+    },
+    {
+        "file": "buggy6_logic_error.py",
+        "initial_status": "passed_initially",
+        "final_status": "passed",
+        "ai_used": false
+    },
+    {
+        "file": "buggy7_type_error.py",
+        "initial_status": "passed_initially",
+        "final_status": "passed",
+        "ai_used": false
+    },
+    {
+        "file": "buggy8_api_call.py",
+        "initial_status": "failed",
+        "initial_error": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy8_api_call.py\", line 3\n    def get_user_data(user_id)\n                              ^\nSyntaxError: expected ':'\n",
+        "ai_explanation": "AI analyzed the error and generated a corrected version, saved separately.",
+        "final_status": "passed",
+        "final_output": "{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', 'company': {'name': 'Romaguera-Crona', 'catchPhrase': 'Multi-layered client-server neural-net', 'bs': 'harness real-time e-markets'}}",
+        "ai_applied": true
+    },
+    {
+        "file": "buggy9_class_inheritance.py",
+        "initial_status": "passed_initially",
+        "final_status": "passed",
+        "ai_used": false
+    }
+]

@@ -1,0 +1,19 @@
+version: "3.9"
+services:
+  app:
+    build: .
+    container_name: flask-app
+    command: python app/app.py
+    ports:
+      - "5000:5000"
+    volumes:
+      - .:/app
+
+  dashboard:
+    build: .
+    container_name: streamlit-dashboard
+    command: streamlit run dashboard/dashboard.py --server.port=8501 --server.address=0.0.0.0
+    ports:
+      - "8501:8501"
+    volumes:
+      - .:/app

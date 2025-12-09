@@ -1,0 +1,1094 @@
+file,initial_status,initial_error,ai_suggestion,ai_explanation,fixed_file,final_status,final_output,ai_used,ai_applied,status,timestamp,issue_type,severity,ai_confidence,execution_time
+buggy10_complex_combination.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 10, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 5, in process_data
+    config = json.load(open(""config.json""))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 10, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 5, in process_data
+    config = json.load(open(""config.json""))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+
+
+Code (or snippet) possibly responsible:
+import json
+
+def process_data(data):
+    avg = sum(data) / len(data)
+    config = json.load(open(""config.json""))
+    print(""Configuration loaded:"", config[""version""])
+    return avg * config[""scale""]
+
+numbers = [1, 2, 3, 4, 5]
+result = process_data(numbers)
+print(""Result:"", result)
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+Line: 10
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.","AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.",buggy_examples\buggy10_complex_combination_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,0,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 1
+    def show_name()
+                   ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,,,,,,True,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,0,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 3
+    username=
+             ^
+SyntaxError: invalid syntax
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,,,,,,True,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,,,,,,True,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py"", line 2
+    if num % 2 == 1
+                   ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,True,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,0,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,,,,,,True,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,0,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 1
+    def calculate_average(numbers)
+                                  ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,None,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 3
+    username = 
+               ^
+SyntaxError: invalid syntax
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 34, in <module>
+    df = load_json_data(""sample_data.json"")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy",,Rule-based auto-fix applied: Wrapped file operations in try/except with graceful fallback.,,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy1_syntax_error.py"", line 7
+    """"""Load JSON file from given path""""""
+    ^
+IndentationError: expected an indented block after function definition on line 6
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 2
+    if len(numbers) == 0
+                        ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,None,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py"", line 2
+    if num % 2 == 1
+                   ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,True,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 7
+    """"""Load JSON file from given path""""""
+    ^
+IndentationError: expected an indented block after function definition on line 6
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,None,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py"", line 1
+    def is_even(num)
+                    ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,True,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,,,,,,True,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 3
+    def generate_random()
+                         ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,"(1, 100)",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 6
+    content = 'File not found. Using default c
+              ^
+SyntaxError: unterminated string literal (detected at line 6)
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,dummy data,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py"", line 2
+    if num % 2 == 1
+                   ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,True,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 40, in <module>
+    df = load_json_data(""sample_data.json"")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy",,Rule-based auto-fix applied: Wrapped file operations in try/except with graceful fallback.,,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy1_syntax_error.py"", line 11
+    """"""Load JSON file from given path""""""
+    ^
+IndentationError: expected an indented block after function definition on line 10
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,None,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,,,,,,True,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 9
+    def load_json_data(filepath)
+                                ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy1_syntax_error.py"", line 34, in <module>
+    df = load_json_data(""sample_data.json"")
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,None,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,0,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,failed,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+","The following error occurred:
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+
+
+Code (or snippet) possibly responsible:
+def add_numbers(a, b)
+    return a + b
+
+print(add_numbers(5, 10))
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+Line: 1
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.","AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.",buggy_examples\buggy1_syntax_error_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 4, in <module>
+    print(generate_random())
+          ^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 2, in generate_random
+    return random.randint(1, 100)
+           ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy4_import_error.py"", line 4, in <module>
+    print(generate_random())
+          ^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy4_import_error.py"", line 2, in generate_random
+    return random.randint(1, 100)
+           ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 8, in <module>
+    print(get_user_data(1))
+          ^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 6, in get_user_data
+    return response.json()[""non_existent_key""]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'non_existent_key'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy8_api_call.py"", line 8, in <module>
+    print(get_user_data(1))
+          ^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy8_api_call.py"", line 6, in get_user_data
+    return response.json()[""non_existent_key""]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'non_existent_key'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 11, in <module>
+    d.bark()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 8, in bark
+    super().speak(self)
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy9_class_inheritance.py"", line 11, in <module>
+    d.bark()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy9_class_inheritance.py"", line 8, in bark
+    super().speak(self)
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy10_complex_combination.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 10, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 5, in process_data
+    config = json.load(open(""config.json""))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy10_complex_combination.py"", line 11, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy10_complex_combination.py"", line 5, in process_data
+    with open(""config.json"") as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,failed,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed,,,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 4, in <module>
+    print(calculate_average([]))
+          ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 2, in calculate_average
+    return sum(numbers) / len(numbers)
+           ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy2_zero_division.py"", line 9
+    In the original code, the function was trying to divide by zero, which is a ZeroDivisionError. I added a check to return 0 if the list of numbers is empty.
+       ^^^
+SyntaxError: invalid syntax
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 4, in <module>
+    show_name()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 2, in show_name
+    print(""Hello"", username)
+                   ^^^^^^^^
+NameError: name 'username' is not defined
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy3_name_error.py"", line 8
+    In the corrected code, the 'username' variable is defined before the function'show_name' is called. The 'end' parameter in the print function is set to'' (a space) to prevent the print function from adding a newline after the ""Hello"" string.
+       ^^^
+SyntaxError: invalid syntax
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 4, in <module>
+    print(generate_random())
+          ^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 2, in generate_random
+    return random.randint(1, 100)
+           ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed,39,,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 8, in <module>
+    print(get_user_data(1))
+          ^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 6, in get_user_data
+    return response.json()[""non_existent_key""]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'non_existent_key'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', 'company': {'name': 'Romaguera-Crona', 'catchPhrase': 'Multi-layered client-server neural-net', 'bs': 'harness real-time e-markets'}}",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 11, in <module>
+    d.bark()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 8, in bark
+    super().speak(self)
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed,"Dog barks
+Animal speaks",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy10_complex_combination.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 11, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 5, in process_data
+    with open(""config.json"") as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy10_complex_combination.py"", line 11, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy10_complex_combination.py"", line 5, in process_data
+    with open(""config.json"") as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 4, in <module>
+    show_name()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 2, in show_name
+    print(""Hello"", username)
+                   ^^^^^^^^
+NameError: name 'username' is not defined
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy3_name_error.py"", line 4, in <module>
+    show_name()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy3_name_error.py"", line 2, in show_name
+    print(""Hello"", username)
+                   ^^^^^^^^
+NameError: name 'username' is not defined
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 4, in <module>
+    print(calculate_average([]))
+          ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 2, in calculate_average
+    return sum(numbers) / len(numbers)
+           ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy2_zero_division.py"", line 4, in <module>
+    print(calculate_average([]))
+          ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy2_zero_division.py"", line 2, in calculate_average
+    return sum(numbers) / len(numbers)
+           ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,failed,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy10_complex_combination.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 11, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 6, in process_data
+    config = json.load(open(""config.json""))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 11, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 6, in process_data
+    config = json.load(open(""config.json""))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+
+
+Code possibly responsible:
+
+import json
+
+def process_data(data):
+    avg = sum(data) / len(data)
+    config = json.load(open(""config.json""))
+    print(""Configuration loaded:"", config[""version""])
+    return avg * config[""scale""]
+
+numbers = [1, 2, 3, 4, 5]
+result = process_data(numbers)
+print(""Result:"", result)
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py
+Line: 11
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.",This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.,buggy_examples\buggy10_complex_combination_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 4, in <module>
+    print(calculate_average([]))
+          ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 2, in calculate_average
+    return sum(numbers) / len(numbers)
+           ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 4, in <module>
+    print(calculate_average([]))
+          ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 2, in calculate_average
+    return sum(numbers) / len(numbers)
+           ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+
+Code (or snippet) possibly responsible:
+def calculate_average(numbers):
+    return sum(numbers) / len(numbers)
+
+print(calculate_average([]))
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+Line: 4
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.","AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.",buggy_examples\buggy2_zero_division_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 4, in <module>
+    show_name()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 2, in show_name
+    print(""Hello"", username)
+                   ^^^^^^^^
+NameError: name 'username' is not defined
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 4, in <module>
+    show_name()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 2, in show_name
+    print(""Hello"", username)
+                   ^^^^^^^^
+NameError: name 'username' is not defined
+
+
+Code (or snippet) possibly responsible:
+def show_name():
+    print(""Hello"", username)
+
+show_name()
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+Line: 4
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.","AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.",buggy_examples\buggy3_name_error_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 4, in <module>
+    print(generate_random())
+          ^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 2, in generate_random
+    return random.randint(1, 100)
+           ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 4, in <module>
+    print(generate_random())
+          ^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 2, in generate_random
+    return random.randint(1, 100)
+           ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+
+
+Code (or snippet) possibly responsible:
+def generate_random():
+    return random.randint(1, 100)
+
+print(generate_random())
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+Line: 4
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.","AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.",buggy_examples\buggy4_import_error_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+
+
+Code (or snippet) possibly responsible:
+def read_data():
+    with open(""nonexistent_file.txt"", ""r"") as f:
+        return f.read()
+
+print(read_data())
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+Line: 5
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.","AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.",buggy_examples\buggy5_file_handling_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 8, in <module>
+    print(get_user_data(1))
+          ^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 6, in get_user_data
+    return response.json()[""non_existent_key""]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'non_existent_key'
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 8, in <module>
+    print(get_user_data(1))
+          ^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 6, in get_user_data
+    return response.json()[""non_existent_key""]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'non_existent_key'
+
+
+Code (or snippet) possibly responsible:
+import requests
+
+def get_user_data(user_id):
+    url = f""https://jsonplaceholder.typicode.com/users/{user_id}""
+    response = requests.get(url)
+    return response.json()[""non_existent_key""]
+
+print(get_user_data(1))
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py
+Line: 8
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.","AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.",buggy_examples\buggy8_api_call_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 11, in <module>
+    d.bark()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 8, in bark
+    super().speak(self)
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 11, in <module>
+    d.bark()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 8, in bark
+    super().speak(self)
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+
+
+Code (or snippet) possibly responsible:
+class Animal:
+    def speak(self):
+        print(""Animal speaks"")
+
+class Dog(Animal):
+    def bark(self):
+        print(""Dog barks"")
+        super().speak(self)
+
+d = Dog()
+d.bark()
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py
+Line: 11
+
+Suggest one code fix (with the corrected line) and explain why it solves the issue.","AI analyzed the error context and proposed a change to prevent recurrence, based on learned patterns from Python codebases.",buggy_examples\buggy9_class_inheritance_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,failed,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+","The following error occurred:
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+
+
+Code possibly responsible:
+def add_numbers(a, b)
+    return a + b
+
+print(add_numbers(5, 10))
+
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py
+Line: 1
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.",This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.,buggy_examples\buggy1_syntax_error_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy10_complex_combination.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 10, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 5, in process_data
+    config = json.load(open(""config.json""))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy10_complex_combination.py"", line 10, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy10_complex_combination.py"", line 5, in process_data
+    config = json.load(open(""config.json""))
+                       ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 4, in <module>
+    print(calculate_average([]))
+          ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 2, in calculate_average
+    return sum(numbers) / len(numbers)
+           ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 4, in <module>
+    print(calculate_average([]))
+          ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 2, in calculate_average
+    return sum(numbers) / len(numbers)
+           ~~~~~~~~~~~~~^~~~~~~~~~~~~~
+ZeroDivisionError: division by zero
+
+
+Code possibly responsible:
+def calculate_average(numbers):
+    return sum(numbers) / len(numbers)
+
+print(calculate_average([]))
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py
+Line: 4
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.",This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.,buggy_examples\buggy2_zero_division_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 5, in <module>
+    show_name()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 3, in show_name
+    print(""Hello"", username)
+                   ^^^^^^^^
+NameError: name 'username' is not defined
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 5, in <module>
+    show_name()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 3, in show_name
+    print(""Hello"", username)
+                   ^^^^^^^^
+NameError: name 'username' is not defined
+
+
+Code possibly responsible:
+
+def show_name():
+    print(""Hello"", username)
+
+show_name()
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py
+Line: 5
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.",This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.,buggy_examples\buggy3_name_error_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 5, in <module>
+    print(generate_random())
+          ^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 3, in generate_random
+    return random.randint(1, 100)
+           ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 5, in <module>
+    print(generate_random())
+          ^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py"", line 3, in generate_random
+    return random.randint(1, 100)
+           ^^^^^^
+NameError: name 'random' is not defined. Did you forget to import 'random'?
+
+
+Code possibly responsible:
+
+def generate_random():
+    return random.randint(1, 100)
+
+print(generate_random())
+
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error.py
+Line: 5
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.",This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.,buggy_examples\buggy4_import_error_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy4_import_error_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 6, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 3, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 6, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 3, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+
+
+Code possibly responsible:
+
+def read_data():
+    with open(""nonexistent_file.txt"", ""r"") as f:
+        return f.read()
+
+print(read_data())
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py
+Line: 6
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.",This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.,buggy_examples\buggy5_file_handling_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 9, in <module>
+    print(get_user_data(1))
+          ^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 7, in get_user_data
+    return response.json()[""non_existent_key""]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'non_existent_key'
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 9, in <module>
+    print(get_user_data(1))
+          ^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 7, in get_user_data
+    return response.json()[""non_existent_key""]
+           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^
+KeyError: 'non_existent_key'
+
+
+Code possibly responsible:
+
+import requests
+
+def get_user_data(user_id):
+    url = f""https://jsonplaceholder.typicode.com/users/{user_id}""
+    response = requests.get(url)
+    return response.json()[""non_existent_key""]
+
+print(get_user_data(1))
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py
+Line: 9
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.",This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.,buggy_examples\buggy8_api_call_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 12, in <module>
+    d.bark()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 9, in bark
+    super().speak(self)
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+","The following error occurred:
+Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 12, in <module>
+    d.bark()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py"", line 9, in bark
+    super().speak(self)
+TypeError: Animal.speak() takes 1 positional argument but 2 were given
+
+
+Code possibly responsible:
+
+class Animal:
+    def speak(self):
+        print(""Animal speaks"")
+
+class Dog(Animal):
+    def bark(self):
+        print(""Dog barks"")
+        super().speak(self)
+
+d = Dog()
+d.bark()
+
+File: C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance.py
+Line: 12
+
+Suggest one code fix (with corrected lines) and explain why it solves the issue.",This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.,buggy_examples\buggy9_class_inheritance_fixed.py,failed_after_fix,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy9_class_inheritance_fixed.py"", line 1
+    The following error occurred:
+        ^^^^^^^^^
+SyntaxError: invalid syntax
+",,,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 5, in <module>
+    show_name()
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy3_name_error.py"", line 3, in show_name
+    print(username)
+          ^^^^^^^^
+NameError: name 'username' is not defined
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Command '['C:\\Users\\prakh\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'fixed_examples\\buggy3_name_error.py']' timed out after 15 seconds",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy1_syntax_error.py"", line 1
+    def add_numbers(a, b)
+                         ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy2_zero_division.py"", line 1
+    def calculate_average(numbers)
+                                  ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed_after_fix,0,,,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,,,,,,True,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,0,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,,,,,,True,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,,,,,,,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', ",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,,,,,,,222,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy5_file_handling.py"", line 5, in <module>
+    print(read_data())
+          ^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy5_file_handling.py"", line 2, in read_data
+    with open(""nonexistent_file.txt"", ""r"") as f:
+         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,failed,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy8_api_call.py"", line 3
+    def get_user_data(user_id)
+                              ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed,"{'id': 1, 'name': 'Leanne Graham', 'username': 'Bret', 'email': 'Sincere@april.biz', 'address': {'street': 'Kulas Light', 'suite': 'Apt. 556', 'city': 'Gwenborough', 'zipcode': '92998-3874', 'geo': {'lat': '-37.3159', 'lng': '81.1496'}}, 'phone': '1-770-736-8031 x56442', 'website': 'hildegard.org', 'company': {'name': 'Romaguera-Crona', 'catchPhrase': 'Multi-layered client-server neural-net', 'bs': 'harness real-time e-markets'}}",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy10_complex_combination.py,failed,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 11, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy10_complex_combination.py"", line 5, in process_data
+    with open(""config.json"") as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Traceback (most recent call last):
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy10_complex_combination.py"", line 11, in <module>
+    result = process_data(numbers)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\fixed_examples\buggy10_complex_combination.py"", line 5, in process_data
+    with open(""config.json"") as f:
+         ^^^^^^^^^^^^^^^^^^^
+FileNotFoundError: [Errno 2] No such file or directory: 'config.json'
+",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,failed,"Command '['C:\\Users\\prakh\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'buggy_examples\\buggy3_name_error.py']' timed out after 15 seconds",,"AI analyzed the error and generated a corrected version, saved separately.",,failed_after_fix,"Command '['C:\\Users\\prakh\\AppData\\Local\\Programs\\Python\\Python312\\python.exe', 'fixed_examples\\buggy3_name_error.py']' timed out after 15 seconds",,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,failed,"  File ""C:\Users\prakh\Downloads\ci-cd-pipeline\buggy_examples\buggy6_logic_error.py"", line 2
+    if num % 2 == 1
+                   ^
+SyntaxError: expected ':'
+",,"AI analyzed the error and generated a corrected version, saved separately.",,passed,True,,1.0,nan,2025-11-17 00:23:25.494944,,,,
+buggy6_logic_error.py,,,,,,,True,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy7_type_error.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy8_api_call.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,passed_initially,,,,,passed,,0.0,,nan,2025-11-17 00:23:25.494944,,,,
+buggy1_syntax_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy2_zero_division.py,,,,,,,0,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy3_name_error.py,,,,,,,,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy4_import_error.py,,,,,,,"(1, 100)",,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy5_file_handling.py,,,,,,,dummy data,,,passed_initially,2025-11-17 00:23:25.494944,,,,
+buggy9_class_inheritance.py,,,,,,,"Dog barks
+Animal speaks",,,passed_initially,2025-11-17 00:23:25.494944,,,,

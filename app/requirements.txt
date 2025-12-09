@@ -1,0 +1,27 @@
+# Core
+flask
+fastapi
+uvicorn
+requests
+
+# Testing
+pytest
+
+# Data & Analysis
+pandas
+matplotlib
+numpy
+
+# Dashboard
+streamlit
+plotly
+
+# AI/LLM (Hugging Face only)
+langchain
+langchain-huggingface
+
+# Jupyter
+notebook
+
+# Utilities
+python-dotenv

@@ -1,0 +1,3629 @@
+{
+    "entries": [
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "2025-09-29 03:55:48,761 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "2025-09-29 03:55:48,761 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "2025-09-29 04:51:09,649 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "2025-09-29 04:51:09,649 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.613348",
+            "type": "error",
+            "message": "Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.614348",
+            "type": "error",
+            "message": "\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\""
+        },
+        {
+            "timestamp": "2025-10-29 00:28:50.617349",
+            "type": "error",
+            "message": "2025-10-27 ERROR Something broke"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 01:59:16",
+            "type": "fix",
+            "message": "2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': 'Review error logs and fix code issues', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': 'Investigate system resources and network connectivity', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 02:32:39",
+            "type": "fix",
+            "message": "2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '1. Summary: A simulated failure occurred during the testing of the CI/CD pipeline.\\n2. Suggested fix: Check the configuration of the simulation failure in the CI/CD pipeline.\\n3. Severity: Medium - The error is related to the testing process, but it could effect the production pipeline if the simulation failures are not correctly configured.', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': '1. A failure occurred during a GET request to the /fail endpoint at 2025-09-29 00:09:31,307 with an error being thrown.\\n2. Check the configuration of your application or CI/CD pipeline for any misrouting or incorrect routing to the /fail endpoint.\\n3. Medium: This error may not directly impact the availability or functionality of your application, but it is worth investigating to ensure proper configuration and prevent potential larger issues down the line.', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': '1. Summary: This is not a real error but a simulated exception thrown intentionally for testing the CI/CD pipeline.\\n2. Fix: No action needed as this was a deliberate action for testing purposes.\\n3. Severity: Low.', 'severity': 'low'}"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': \"1. Summary: A simulated failure occurred during the testing of the CI/CD pipeline.\\n2. Suggested fix: Check the pipeline configuration and test scripts for any errors, then retry the simulation.\\n3. Severity: Low. The issue occurred during testing, and it's expected to fail as part of the testing process. However, it should be addressed to ensure successful builds and deployments.\", 'severity': 'low'}"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': \"1. Summary of the issue: An error occurred in the pipeline, but no specific information about the failure was provided in the log.\\n2. Suggested fix: Check the pipeline logs for more detailed information about the failure and address the identified issue.\\n3. Severity: Medium - An error in the pipeline could potentially halt the deployment process, but without more information, it's not clear if this error is affecting production or not.\", 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 03:20:11",
+            "type": "fix",
+            "message": "2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 03:33:07",
+            "type": "fix",
+            "message": "2025-09-29 03:33:07 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 03:33:07",
+            "type": "fix",
+            "message": "2025-09-29 03:33:07 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 03:33:15",
+            "type": "fix",
+            "message": "2025-09-29 03:33:15 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 03:33:15",
+            "type": "fix",
+            "message": "2025-09-29 03:33:15 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 03:52:56",
+            "type": "fix",
+            "message": "2025-09-29 03:52:56 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 03:52:56",
+            "type": "fix",
+            "message": "2025-09-29 03:52:56 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 03:52:59",
+            "type": "fix",
+            "message": "2025-09-29 03:52:59 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 03:52:59",
+            "type": "fix",
+            "message": "2025-09-29 03:52:59 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 03:58:48",
+            "type": "fix",
+            "message": "2025-09-29 03:58:48 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 03:58:48",
+            "type": "fix",
+            "message": "2025-09-29 03:58:48 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 03:58:52",
+            "type": "fix",
+            "message": "2025-09-29 03:58:52 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 03:58:52",
+            "type": "fix",
+            "message": "2025-09-29 03:58:52 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 04:11:20",
+            "type": "fix",
+            "message": "2025-09-29 04:11:20 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 04:11:20",
+            "type": "fix",
+            "message": "2025-09-29 04:11:20 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 04:11:25",
+            "type": "fix",
+            "message": "2025-09-29 04:11:25 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 04:11:25",
+            "type": "fix",
+            "message": "2025-09-29 04:11:25 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 04:16:05",
+            "type": "fix",
+            "message": "2025-09-29 04:16:05 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 04:16:05",
+            "type": "fix",
+            "message": "2025-09-29 04:16:05 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 04:16:09",
+            "type": "fix",
+            "message": "2025-09-29 04:16:09 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 04:16:09",
+            "type": "fix",
+            "message": "2025-09-29 04:16:09 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 04:59:10",
+            "type": "fix",
+            "message": "2025-09-29 04:59:10 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 04:59:10",
+            "type": "fix",
+            "message": "2025-09-29 04:59:10 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 04:59:14",
+            "type": "fix",
+            "message": "2025-09-29 04:59:14 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 04:59:14",
+            "type": "fix",
+            "message": "2025-09-29 04:59:14 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:30:18",
+            "type": "fix",
+            "message": "2025-09-29 16:30:18 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:30:18",
+            "type": "fix",
+            "message": "2025-09-29 16:30:18 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:30:26",
+            "type": "fix",
+            "message": "2025-09-29 16:30:26 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:30:26",
+            "type": "fix",
+            "message": "2025-09-29 16:30:26 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:45:12",
+            "type": "fix",
+            "message": "2025-09-29 16:45:12 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:45:12",
+            "type": "fix",
+            "message": "2025-09-29 16:45:12 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:45:16",
+            "type": "fix",
+            "message": "2025-09-29 16:45:16 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:45:16",
+            "type": "fix",
+            "message": "2025-09-29 16:45:16 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:46:18",
+            "type": "fix",
+            "message": "2025-09-29 16:46:18 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:46:18",
+            "type": "fix",
+            "message": "2025-09-29 16:46:18 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:46:21",
+            "type": "fix",
+            "message": "2025-09-29 16:46:21 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:46:21",
+            "type": "fix",
+            "message": "2025-09-29 16:46:21 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:48:56",
+            "type": "fix",
+            "message": "2025-09-29 16:48:56 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:48:56",
+            "type": "fix",
+            "message": "2025-09-29 16:48:56 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:48:58",
+            "type": "fix",
+            "message": "2025-09-29 16:48:58 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:48:58",
+            "type": "fix",
+            "message": "2025-09-29 16:48:58 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:00",
+            "type": "fix",
+            "message": "2025-09-29 16:49:00 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:00",
+            "type": "fix",
+            "message": "2025-09-29 16:49:00 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:00",
+            "type": "fix",
+            "message": "2025-09-29 16:49:00 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:02",
+            "type": "fix",
+            "message": "2025-09-29 16:49:02 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:02",
+            "type": "fix",
+            "message": "2025-09-29 16:49:02 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:03",
+            "type": "fix",
+            "message": "2025-09-29 16:49:03 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:03",
+            "type": "fix",
+            "message": "2025-09-29 16:49:03 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:05",
+            "type": "fix",
+            "message": "2025-09-29 16:49:05 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:05",
+            "type": "fix",
+            "message": "2025-09-29 16:49:05 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:07",
+            "type": "fix",
+            "message": "2025-09-29 16:49:07 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:07",
+            "type": "fix",
+            "message": "2025-09-29 16:49:07 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:07",
+            "type": "fix",
+            "message": "2025-09-29 16:49:07 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:09",
+            "type": "fix",
+            "message": "2025-09-29 16:49:09 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:09",
+            "type": "fix",
+            "message": "2025-09-29 16:49:09 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:10",
+            "type": "fix",
+            "message": "2025-09-29 16:49:10 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:10",
+            "type": "fix",
+            "message": "2025-09-29 16:49:10 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:12",
+            "type": "fix",
+            "message": "2025-09-29 16:49:12 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:12",
+            "type": "fix",
+            "message": "2025-09-29 16:49:12 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:14",
+            "type": "fix",
+            "message": "2025-09-29 16:49:14 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:14",
+            "type": "fix",
+            "message": "2025-09-29 16:49:14 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:14",
+            "type": "fix",
+            "message": "2025-09-29 16:49:14 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:16",
+            "type": "fix",
+            "message": "2025-09-29 16:49:16 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:16",
+            "type": "fix",
+            "message": "2025-09-29 16:49:16 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:17",
+            "type": "fix",
+            "message": "2025-09-29 16:49:17 [AUTO-FIX] Handling issue: \"2025-09-28 12:00:00 ERROR Something failed in the pipeline\""
+        },
+        {
+            "timestamp": "2025-09-29 16:49:17",
+            "type": "fix",
+            "message": "2025-09-29 16:49:17 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:19",
+            "type": "fix",
+            "message": "2025-09-29 16:49:19 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:19",
+            "type": "fix",
+            "message": "2025-09-29 16:49:19 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:20",
+            "type": "fix",
+            "message": "2025-09-29 16:49:20 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:20",
+            "type": "fix",
+            "message": "2025-09-29 16:49:20 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:20",
+            "type": "fix",
+            "message": "2025-09-29 16:49:20 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:20",
+            "type": "fix",
+            "message": "2025-09-29 16:49:20 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:22",
+            "type": "fix",
+            "message": "2025-09-29 16:49:22 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:23",
+            "type": "fix",
+            "message": "2025-09-29 16:49:23 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:23",
+            "type": "fix",
+            "message": "2025-09-29 16:49:23 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:23",
+            "type": "fix",
+            "message": "2025-09-29 16:49:23 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:23",
+            "type": "fix",
+            "message": "2025-09-29 16:49:23 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:24",
+            "type": "fix",
+            "message": "2025-09-29 16:49:24 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:24",
+            "type": "fix",
+            "message": "2025-09-29 16:49:24 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:24",
+            "type": "fix",
+            "message": "2025-09-29 16:49:24 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:24",
+            "type": "fix",
+            "message": "2025-09-29 16:49:24 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:26",
+            "type": "fix",
+            "message": "2025-09-29 16:49:26 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:26",
+            "type": "fix",
+            "message": "2025-09-29 16:49:26 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:26",
+            "type": "fix",
+            "message": "2025-09-29 16:49:26 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:26",
+            "type": "fix",
+            "message": "2025-09-29 16:49:26 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:27",
+            "type": "fix",
+            "message": "2025-09-29 16:49:27 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:27",
+            "type": "fix",
+            "message": "2025-09-29 16:49:27 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:27",
+            "type": "fix",
+            "message": "2025-09-29 16:49:27 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:27",
+            "type": "fix",
+            "message": "2025-09-29 16:49:27 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:29",
+            "type": "fix",
+            "message": "2025-09-29 16:49:29 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:29",
+            "type": "fix",
+            "message": "2025-09-29 16:49:29 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:29",
+            "type": "fix",
+            "message": "2025-09-29 16:49:29 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': 'Review error logs and fix code issues', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:29",
+            "type": "fix",
+            "message": "2025-09-29 16:49:29 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:31",
+            "type": "fix",
+            "message": "2025-09-29 16:49:31 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:31",
+            "type": "fix",
+            "message": "2025-09-29 16:49:31 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:31",
+            "type": "fix",
+            "message": "2025-09-29 16:49:31 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:31",
+            "type": "fix",
+            "message": "2025-09-29 16:49:31 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:31",
+            "type": "fix",
+            "message": "2025-09-29 16:49:31 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:33",
+            "type": "fix",
+            "message": "2025-09-29 16:49:33 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:33",
+            "type": "fix",
+            "message": "2025-09-29 16:49:33 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:33",
+            "type": "fix",
+            "message": "2025-09-29 16:49:33 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:33",
+            "type": "fix",
+            "message": "2025-09-29 16:49:33 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:35",
+            "type": "fix",
+            "message": "2025-09-29 16:49:35 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:35",
+            "type": "fix",
+            "message": "2025-09-29 16:49:35 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:35",
+            "type": "fix",
+            "message": "2025-09-29 16:49:35 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': 'Investigate system resources and network connectivity', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:35",
+            "type": "fix",
+            "message": "2025-09-29 16:49:35 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:37",
+            "type": "fix",
+            "message": "2025-09-29 16:49:37 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:37",
+            "type": "fix",
+            "message": "2025-09-29 16:49:37 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:37",
+            "type": "fix",
+            "message": "2025-09-29 16:49:37 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '1. Summary: A simulated failure occurred during the testing of the CI/CD pipeline.\\n2. Suggested fix: Check the configuration of the simulation failure in the CI/CD pipeline.\\n3. Severity: Medium - The error is related to the testing process, but it could effect the production pipeline if the simulation failures are not correctly configured.', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:37",
+            "type": "fix",
+            "message": "2025-09-29 16:49:37 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:38",
+            "type": "fix",
+            "message": "2025-09-29 16:49:38 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:38",
+            "type": "fix",
+            "message": "2025-09-29 16:49:38 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:38",
+            "type": "fix",
+            "message": "2025-09-29 16:49:38 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': '1. A failure occurred during a GET request to the /fail endpoint at 2025-09-29 00:09:31,307 with an error being thrown.\\n2. Check the configuration of your application or CI/CD pipeline for any misrouting or incorrect routing to the /fail endpoint.\\n3. Medium: This error may not directly impact the availability or functionality of your application, but it is worth investigating to ensure proper configuration and prevent potential larger issues down the line.', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:38",
+            "type": "fix",
+            "message": "2025-09-29 16:49:38 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:40",
+            "type": "fix",
+            "message": "2025-09-29 16:49:40 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:40",
+            "type": "fix",
+            "message": "2025-09-29 16:49:40 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:40",
+            "type": "fix",
+            "message": "2025-09-29 16:49:40 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': '1. Summary: This is not a real error but a simulated exception thrown intentionally for testing the CI/CD pipeline.\\n2. Fix: No action needed as this was a deliberate action for testing purposes.\\n3. Severity: Low.', 'severity': 'low'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:40",
+            "type": "fix",
+            "message": "2025-09-29 16:49:40 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:41",
+            "type": "fix",
+            "message": "2025-09-29 16:49:41 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:41",
+            "type": "fix",
+            "message": "2025-09-29 16:49:41 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:41",
+            "type": "fix",
+            "message": "2025-09-29 16:49:41 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': \"1. Summary: A simulated failure occurred during the testing of the CI/CD pipeline.\\n2. Suggested fix: Check the pipeline configuration and test scripts for any errors, then retry the simulation.\\n3. Severity: Low. The issue occurred during testing, and it's expected to fail as part of the testing process. However, it should be addressed to ensure successful builds and deployments.\", 'severity': 'low'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:41",
+            "type": "fix",
+            "message": "2025-09-29 16:49:41 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:43",
+            "type": "fix",
+            "message": "2025-09-29 16:49:43 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:43",
+            "type": "fix",
+            "message": "2025-09-29 16:49:43 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:43",
+            "type": "fix",
+            "message": "2025-09-29 16:49:43 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': \"1. Summary of the issue: An error occurred in the pipeline, but no specific information about the failure was provided in the log.\\n2. Suggested fix: Check the pipeline logs for more detailed information about the failure and address the identified issue.\\n3. Severity: Medium - An error in the pipeline could potentially halt the deployment process, but without more information, it's not clear if this error is affecting production or not.\", 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:43",
+            "type": "fix",
+            "message": "2025-09-29 16:49:43 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:45",
+            "type": "fix",
+            "message": "2025-09-29 16:49:45 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:45",
+            "type": "fix",
+            "message": "2025-09-29 16:49:45 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:45",
+            "type": "fix",
+            "message": "2025-09-29 16:49:45 [AUTO-FIX] Handling issue: 2025-09-29 03:33:07 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:45",
+            "type": "fix",
+            "message": "2025-09-29 16:49:45 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:46",
+            "type": "fix",
+            "message": "2025-09-29 16:49:46 [AUTO-FIX] Handling issue: 2025-09-29 03:33:07 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:46",
+            "type": "fix",
+            "message": "2025-09-29 16:49:46 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:46",
+            "type": "fix",
+            "message": "2025-09-29 16:49:46 [AUTO-FIX] Handling issue: 2025-09-29 03:33:15 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:46",
+            "type": "fix",
+            "message": "2025-09-29 16:49:46 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:49",
+            "type": "fix",
+            "message": "2025-09-29 16:49:49 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:49",
+            "type": "fix",
+            "message": "2025-09-29 16:49:49 [AUTO-FIX] Handling issue: 2025-09-29 03:33:15 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:49",
+            "type": "fix",
+            "message": "2025-09-29 16:49:49 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:51",
+            "type": "fix",
+            "message": "2025-09-29 16:49:51 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:51",
+            "type": "fix",
+            "message": "2025-09-29 16:49:51 [AUTO-FIX] Handling issue: 2025-09-29 03:52:56 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:51",
+            "type": "fix",
+            "message": "2025-09-29 16:49:51 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:53",
+            "type": "fix",
+            "message": "2025-09-29 16:49:53 [AUTO-FIX] Handling issue: 2025-09-29 03:52:56 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:53",
+            "type": "fix",
+            "message": "2025-09-29 16:49:53 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:53",
+            "type": "fix",
+            "message": "2025-09-29 16:49:53 [AUTO-FIX] Handling issue: 2025-09-29 03:52:59 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:53",
+            "type": "fix",
+            "message": "2025-09-29 16:49:53 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:55",
+            "type": "fix",
+            "message": "2025-09-29 16:49:55 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:55",
+            "type": "fix",
+            "message": "2025-09-29 16:49:55 [AUTO-FIX] Handling issue: 2025-09-29 03:52:59 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:55",
+            "type": "fix",
+            "message": "2025-09-29 16:49:55 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:57",
+            "type": "fix",
+            "message": "2025-09-29 16:49:57 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:57",
+            "type": "fix",
+            "message": "2025-09-29 16:49:57 [AUTO-FIX] Handling issue: 2025-09-29 03:58:48 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:49:57",
+            "type": "fix",
+            "message": "2025-09-29 16:49:57 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:59",
+            "type": "fix",
+            "message": "2025-09-29 16:49:59 [AUTO-FIX] Handling issue: 2025-09-29 03:58:48 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:59",
+            "type": "fix",
+            "message": "2025-09-29 16:49:59 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:59",
+            "type": "fix",
+            "message": "2025-09-29 16:49:59 [AUTO-FIX] Handling issue: 2025-09-29 03:58:52 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:49:59",
+            "type": "fix",
+            "message": "2025-09-29 16:49:59 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:01",
+            "type": "fix",
+            "message": "2025-09-29 16:50:01 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:01",
+            "type": "fix",
+            "message": "2025-09-29 16:50:01 [AUTO-FIX] Handling issue: 2025-09-29 03:58:52 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:01",
+            "type": "fix",
+            "message": "2025-09-29 16:50:01 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:04",
+            "type": "fix",
+            "message": "2025-09-29 16:50:04 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:04",
+            "type": "fix",
+            "message": "2025-09-29 16:50:04 [AUTO-FIX] Handling issue: 2025-09-29 04:11:20 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:04",
+            "type": "fix",
+            "message": "2025-09-29 16:50:04 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:05",
+            "type": "fix",
+            "message": "2025-09-29 16:50:05 [AUTO-FIX] Handling issue: 2025-09-29 04:11:20 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:05",
+            "type": "fix",
+            "message": "2025-09-29 16:50:05 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:05",
+            "type": "fix",
+            "message": "2025-09-29 16:50:05 [AUTO-FIX] Handling issue: 2025-09-29 04:11:25 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:05",
+            "type": "fix",
+            "message": "2025-09-29 16:50:05 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:07",
+            "type": "fix",
+            "message": "2025-09-29 16:50:07 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:07",
+            "type": "fix",
+            "message": "2025-09-29 16:50:07 [AUTO-FIX] Handling issue: 2025-09-29 04:11:25 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:07",
+            "type": "fix",
+            "message": "2025-09-29 16:50:07 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:10",
+            "type": "fix",
+            "message": "2025-09-29 16:50:10 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:10",
+            "type": "fix",
+            "message": "2025-09-29 16:50:10 [AUTO-FIX] Handling issue: 2025-09-29 04:16:05 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:10",
+            "type": "fix",
+            "message": "2025-09-29 16:50:10 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:11",
+            "type": "fix",
+            "message": "2025-09-29 16:50:11 [AUTO-FIX] Handling issue: 2025-09-29 04:16:05 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:11",
+            "type": "fix",
+            "message": "2025-09-29 16:50:11 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:11",
+            "type": "fix",
+            "message": "2025-09-29 16:50:11 [AUTO-FIX] Handling issue: 2025-09-29 04:16:09 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:11",
+            "type": "fix",
+            "message": "2025-09-29 16:50:11 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:14",
+            "type": "fix",
+            "message": "2025-09-29 16:50:14 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:14",
+            "type": "fix",
+            "message": "2025-09-29 16:50:14 [AUTO-FIX] Handling issue: 2025-09-29 04:16:09 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:14",
+            "type": "fix",
+            "message": "2025-09-29 16:50:14 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:16",
+            "type": "fix",
+            "message": "2025-09-29 16:50:16 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:16",
+            "type": "fix",
+            "message": "2025-09-29 16:50:16 [AUTO-FIX] Handling issue: 2025-09-29 04:59:10 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:16",
+            "type": "fix",
+            "message": "2025-09-29 16:50:16 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:17",
+            "type": "fix",
+            "message": "2025-09-29 16:50:17 [AUTO-FIX] Handling issue: 2025-09-29 04:59:10 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:17",
+            "type": "fix",
+            "message": "2025-09-29 16:50:17 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:17",
+            "type": "fix",
+            "message": "2025-09-29 16:50:17 [AUTO-FIX] Handling issue: 2025-09-29 04:59:14 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:17",
+            "type": "fix",
+            "message": "2025-09-29 16:50:17 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:20",
+            "type": "fix",
+            "message": "2025-09-29 16:50:20 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:20",
+            "type": "fix",
+            "message": "2025-09-29 16:50:20 [AUTO-FIX] Handling issue: 2025-09-29 04:59:14 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:20",
+            "type": "fix",
+            "message": "2025-09-29 16:50:20 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:22",
+            "type": "fix",
+            "message": "2025-09-29 16:50:22 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:22",
+            "type": "fix",
+            "message": "2025-09-29 16:50:22 [AUTO-FIX] Handling issue: 2025-09-29 16:30:18 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:22",
+            "type": "fix",
+            "message": "2025-09-29 16:50:22 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:24",
+            "type": "fix",
+            "message": "2025-09-29 16:50:24 [AUTO-FIX] Handling issue: 2025-09-29 16:30:18 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:24",
+            "type": "fix",
+            "message": "2025-09-29 16:50:24 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:24",
+            "type": "fix",
+            "message": "2025-09-29 16:50:24 [AUTO-FIX] Handling issue: 2025-09-29 16:30:26 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:24",
+            "type": "fix",
+            "message": "2025-09-29 16:50:24 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:26",
+            "type": "fix",
+            "message": "2025-09-29 16:50:26 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:26",
+            "type": "fix",
+            "message": "2025-09-29 16:50:26 [AUTO-FIX] Handling issue: 2025-09-29 16:30:26 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:26",
+            "type": "fix",
+            "message": "2025-09-29 16:50:26 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:28",
+            "type": "fix",
+            "message": "2025-09-29 16:50:28 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:28",
+            "type": "fix",
+            "message": "2025-09-29 16:50:28 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:28",
+            "type": "fix",
+            "message": "2025-09-29 16:50:28 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:30",
+            "type": "fix",
+            "message": "2025-09-29 16:50:30 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:30",
+            "type": "fix",
+            "message": "2025-09-29 16:50:30 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:32",
+            "type": "fix",
+            "message": "2025-09-29 16:50:32 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:32",
+            "type": "fix",
+            "message": "2025-09-29 16:50:32 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:32",
+            "type": "fix",
+            "message": "2025-09-29 16:50:32 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:34",
+            "type": "fix",
+            "message": "2025-09-29 16:50:34 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:34",
+            "type": "fix",
+            "message": "2025-09-29 16:50:34 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:35",
+            "type": "fix",
+            "message": "2025-09-29 16:50:35 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:35",
+            "type": "fix",
+            "message": "2025-09-29 16:50:35 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:37",
+            "type": "fix",
+            "message": "2025-09-29 16:50:37 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:37",
+            "type": "fix",
+            "message": "2025-09-29 16:50:37 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:39",
+            "type": "fix",
+            "message": "2025-09-29 16:50:39 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:39",
+            "type": "fix",
+            "message": "2025-09-29 16:50:39 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:39",
+            "type": "fix",
+            "message": "2025-09-29 16:50:39 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:41",
+            "type": "fix",
+            "message": "2025-09-29 16:50:41 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:41",
+            "type": "fix",
+            "message": "2025-09-29 16:50:41 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:42",
+            "type": "fix",
+            "message": "2025-09-29 16:50:42 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:42",
+            "type": "fix",
+            "message": "2025-09-29 16:50:42 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:44",
+            "type": "fix",
+            "message": "2025-09-29 16:50:44 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:44",
+            "type": "fix",
+            "message": "2025-09-29 16:50:44 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:46",
+            "type": "fix",
+            "message": "2025-09-29 16:50:46 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:46",
+            "type": "fix",
+            "message": "2025-09-29 16:50:46 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:46",
+            "type": "fix",
+            "message": "2025-09-29 16:50:46 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:48",
+            "type": "fix",
+            "message": "2025-09-29 16:50:48 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 16:50:48",
+            "type": "fix",
+            "message": "2025-09-29 16:50:48 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 16:50:49",
+            "type": "fix",
+            "message": "2025-09-29 16:50:49 [AUTO-FIX] Handling issue: \"2025-09-28 12:00:00 ERROR Something failed in the pipeline\""
+        },
+        {
+            "timestamp": "2025-09-29 16:50:49",
+            "type": "fix",
+            "message": "2025-09-29 16:50:49 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:02:56",
+            "type": "fix",
+            "message": "2025-09-29 17:02:56 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:02:56",
+            "type": "fix",
+            "message": "2025-09-29 17:02:56 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:02:57",
+            "type": "fix",
+            "message": "2025-09-29 17:02:57 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:02:57",
+            "type": "fix",
+            "message": "2025-09-29 17:02:57 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:00",
+            "type": "fix",
+            "message": "2025-09-29 17:03:00 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:00",
+            "type": "fix",
+            "message": "2025-09-29 17:03:00 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:00",
+            "type": "fix",
+            "message": "2025-09-29 17:03:00 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:02",
+            "type": "fix",
+            "message": "2025-09-29 17:03:02 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:02",
+            "type": "fix",
+            "message": "2025-09-29 17:03:02 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:03",
+            "type": "fix",
+            "message": "2025-09-29 17:03:03 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:03",
+            "type": "fix",
+            "message": "2025-09-29 17:03:03 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:05",
+            "type": "fix",
+            "message": "2025-09-29 17:03:05 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:05",
+            "type": "fix",
+            "message": "2025-09-29 17:03:05 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:07",
+            "type": "fix",
+            "message": "2025-09-29 17:03:07 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:07",
+            "type": "fix",
+            "message": "2025-09-29 17:03:07 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:07",
+            "type": "fix",
+            "message": "2025-09-29 17:03:07 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:09",
+            "type": "fix",
+            "message": "2025-09-29 17:03:09 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:09",
+            "type": "fix",
+            "message": "2025-09-29 17:03:09 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:10",
+            "type": "fix",
+            "message": "2025-09-29 17:03:10 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:10",
+            "type": "fix",
+            "message": "2025-09-29 17:03:10 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:12",
+            "type": "fix",
+            "message": "2025-09-29 17:03:12 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:12",
+            "type": "fix",
+            "message": "2025-09-29 17:03:12 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:14",
+            "type": "fix",
+            "message": "2025-09-29 17:03:14 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:14",
+            "type": "fix",
+            "message": "2025-09-29 17:03:14 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:14",
+            "type": "fix",
+            "message": "2025-09-29 17:03:14 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:16",
+            "type": "fix",
+            "message": "2025-09-29 17:03:16 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:16",
+            "type": "fix",
+            "message": "2025-09-29 17:03:16 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:17",
+            "type": "fix",
+            "message": "2025-09-29 17:03:17 [AUTO-FIX] Handling issue: \"2025-09-28 12:00:00 ERROR Something failed in the pipeline\""
+        },
+        {
+            "timestamp": "2025-09-29 17:03:17",
+            "type": "fix",
+            "message": "2025-09-29 17:03:17 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:19",
+            "type": "fix",
+            "message": "2025-09-29 17:03:19 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:19",
+            "type": "fix",
+            "message": "2025-09-29 17:03:19 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:20",
+            "type": "fix",
+            "message": "2025-09-29 17:03:20 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:20",
+            "type": "fix",
+            "message": "2025-09-29 17:03:20 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:20",
+            "type": "fix",
+            "message": "2025-09-29 17:03:20 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:20",
+            "type": "fix",
+            "message": "2025-09-29 17:03:20 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:23",
+            "type": "fix",
+            "message": "2025-09-29 17:03:23 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:23",
+            "type": "fix",
+            "message": "2025-09-29 17:03:23 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:23",
+            "type": "fix",
+            "message": "2025-09-29 17:03:23 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:23",
+            "type": "fix",
+            "message": "2025-09-29 17:03:23 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:23",
+            "type": "fix",
+            "message": "2025-09-29 17:03:23 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:24",
+            "type": "fix",
+            "message": "2025-09-29 17:03:24 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:24",
+            "type": "fix",
+            "message": "2025-09-29 17:03:24 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:24",
+            "type": "fix",
+            "message": "2025-09-29 17:03:24 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:24",
+            "type": "fix",
+            "message": "2025-09-29 17:03:24 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:26",
+            "type": "fix",
+            "message": "2025-09-29 17:03:26 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:26",
+            "type": "fix",
+            "message": "2025-09-29 17:03:26 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:26",
+            "type": "fix",
+            "message": "2025-09-29 17:03:26 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:26",
+            "type": "fix",
+            "message": "2025-09-29 17:03:26 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:27",
+            "type": "fix",
+            "message": "2025-09-29 17:03:27 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:27",
+            "type": "fix",
+            "message": "2025-09-29 17:03:27 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:27",
+            "type": "fix",
+            "message": "2025-09-29 17:03:27 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:27",
+            "type": "fix",
+            "message": "2025-09-29 17:03:27 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:29",
+            "type": "fix",
+            "message": "2025-09-29 17:03:29 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:29",
+            "type": "fix",
+            "message": "2025-09-29 17:03:29 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:29",
+            "type": "fix",
+            "message": "2025-09-29 17:03:29 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': 'Review error logs and fix code issues', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:29",
+            "type": "fix",
+            "message": "2025-09-29 17:03:29 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:31",
+            "type": "fix",
+            "message": "2025-09-29 17:03:31 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:31",
+            "type": "fix",
+            "message": "2025-09-29 17:03:31 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:31",
+            "type": "fix",
+            "message": "2025-09-29 17:03:31 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:31",
+            "type": "fix",
+            "message": "2025-09-29 17:03:31 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:31",
+            "type": "fix",
+            "message": "2025-09-29 17:03:31 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:32",
+            "type": "fix",
+            "message": "2025-09-29 17:03:32 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:32",
+            "type": "fix",
+            "message": "2025-09-29 17:03:32 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:32",
+            "type": "fix",
+            "message": "2025-09-29 17:03:32 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:32",
+            "type": "fix",
+            "message": "2025-09-29 17:03:32 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:34",
+            "type": "fix",
+            "message": "2025-09-29 17:03:34 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:34",
+            "type": "fix",
+            "message": "2025-09-29 17:03:34 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:34",
+            "type": "fix",
+            "message": "2025-09-29 17:03:34 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': 'Investigate system resources and network connectivity', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:34",
+            "type": "fix",
+            "message": "2025-09-29 17:03:34 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:36",
+            "type": "fix",
+            "message": "2025-09-29 17:03:36 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:36",
+            "type": "fix",
+            "message": "2025-09-29 17:03:36 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:36",
+            "type": "fix",
+            "message": "2025-09-29 17:03:36 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '1. Summary: A simulated failure occurred during the testing of the CI/CD pipeline.\\n2. Suggested fix: Check the configuration of the simulation failure in the CI/CD pipeline.\\n3. Severity: Medium - The error is related to the testing process, but it could effect the production pipeline if the simulation failures are not correctly configured.', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:36",
+            "type": "fix",
+            "message": "2025-09-29 17:03:36 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:37",
+            "type": "fix",
+            "message": "2025-09-29 17:03:37 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:37",
+            "type": "fix",
+            "message": "2025-09-29 17:03:37 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:37",
+            "type": "fix",
+            "message": "2025-09-29 17:03:37 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': '1. A failure occurred during a GET request to the /fail endpoint at 2025-09-29 00:09:31,307 with an error being thrown.\\n2. Check the configuration of your application or CI/CD pipeline for any misrouting or incorrect routing to the /fail endpoint.\\n3. Medium: This error may not directly impact the availability or functionality of your application, but it is worth investigating to ensure proper configuration and prevent potential larger issues down the line.', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:37",
+            "type": "fix",
+            "message": "2025-09-29 17:03:37 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:39",
+            "type": "fix",
+            "message": "2025-09-29 17:03:39 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:39",
+            "type": "fix",
+            "message": "2025-09-29 17:03:39 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:39",
+            "type": "fix",
+            "message": "2025-09-29 17:03:39 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': '1. Summary: This is not a real error but a simulated exception thrown intentionally for testing the CI/CD pipeline.\\n2. Fix: No action needed as this was a deliberate action for testing purposes.\\n3. Severity: Low.', 'severity': 'low'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:39",
+            "type": "fix",
+            "message": "2025-09-29 17:03:39 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:40",
+            "type": "fix",
+            "message": "2025-09-29 17:03:40 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:40",
+            "type": "fix",
+            "message": "2025-09-29 17:03:40 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:40",
+            "type": "fix",
+            "message": "2025-09-29 17:03:40 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': \"1. Summary: A simulated failure occurred during the testing of the CI/CD pipeline.\\n2. Suggested fix: Check the pipeline configuration and test scripts for any errors, then retry the simulation.\\n3. Severity: Low. The issue occurred during testing, and it's expected to fail as part of the testing process. However, it should be addressed to ensure successful builds and deployments.\", 'severity': 'low'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:40",
+            "type": "fix",
+            "message": "2025-09-29 17:03:40 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:42",
+            "type": "fix",
+            "message": "2025-09-29 17:03:42 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:42",
+            "type": "fix",
+            "message": "2025-09-29 17:03:42 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:42",
+            "type": "fix",
+            "message": "2025-09-29 17:03:42 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': \"1. Summary of the issue: An error occurred in the pipeline, but no specific information about the failure was provided in the log.\\n2. Suggested fix: Check the pipeline logs for more detailed information about the failure and address the identified issue.\\n3. Severity: Medium - An error in the pipeline could potentially halt the deployment process, but without more information, it's not clear if this error is affecting production or not.\", 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:42",
+            "type": "fix",
+            "message": "2025-09-29 17:03:42 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:43",
+            "type": "fix",
+            "message": "2025-09-29 17:03:43 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:43",
+            "type": "fix",
+            "message": "2025-09-29 17:03:43 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:43",
+            "type": "fix",
+            "message": "2025-09-29 17:03:43 [AUTO-FIX] Handling issue: 2025-09-29 03:33:07 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:43",
+            "type": "fix",
+            "message": "2025-09-29 17:03:43 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:45",
+            "type": "fix",
+            "message": "2025-09-29 17:03:45 [AUTO-FIX] Handling issue: 2025-09-29 03:33:07 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:45",
+            "type": "fix",
+            "message": "2025-09-29 17:03:45 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:45",
+            "type": "fix",
+            "message": "2025-09-29 17:03:45 [AUTO-FIX] Handling issue: 2025-09-29 03:33:15 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:45",
+            "type": "fix",
+            "message": "2025-09-29 17:03:45 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:47",
+            "type": "fix",
+            "message": "2025-09-29 17:03:47 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:47",
+            "type": "fix",
+            "message": "2025-09-29 17:03:47 [AUTO-FIX] Handling issue: 2025-09-29 03:33:15 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:47",
+            "type": "fix",
+            "message": "2025-09-29 17:03:47 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:49",
+            "type": "fix",
+            "message": "2025-09-29 17:03:49 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:49",
+            "type": "fix",
+            "message": "2025-09-29 17:03:49 [AUTO-FIX] Handling issue: 2025-09-29 03:52:56 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:49",
+            "type": "fix",
+            "message": "2025-09-29 17:03:49 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:51",
+            "type": "fix",
+            "message": "2025-09-29 17:03:51 [AUTO-FIX] Handling issue: 2025-09-29 03:52:56 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:51",
+            "type": "fix",
+            "message": "2025-09-29 17:03:51 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:51",
+            "type": "fix",
+            "message": "2025-09-29 17:03:51 [AUTO-FIX] Handling issue: 2025-09-29 03:52:59 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:51",
+            "type": "fix",
+            "message": "2025-09-29 17:03:51 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:53",
+            "type": "fix",
+            "message": "2025-09-29 17:03:53 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:53",
+            "type": "fix",
+            "message": "2025-09-29 17:03:53 [AUTO-FIX] Handling issue: 2025-09-29 03:52:59 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:53",
+            "type": "fix",
+            "message": "2025-09-29 17:03:53 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:56",
+            "type": "fix",
+            "message": "2025-09-29 17:03:56 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:56",
+            "type": "fix",
+            "message": "2025-09-29 17:03:56 [AUTO-FIX] Handling issue: 2025-09-29 03:58:48 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:56",
+            "type": "fix",
+            "message": "2025-09-29 17:03:56 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:57",
+            "type": "fix",
+            "message": "2025-09-29 17:03:57 [AUTO-FIX] Handling issue: 2025-09-29 03:58:48 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:57",
+            "type": "fix",
+            "message": "2025-09-29 17:03:57 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:57",
+            "type": "fix",
+            "message": "2025-09-29 17:03:57 [AUTO-FIX] Handling issue: 2025-09-29 03:58:52 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:57",
+            "type": "fix",
+            "message": "2025-09-29 17:03:57 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:59",
+            "type": "fix",
+            "message": "2025-09-29 17:03:59 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:03:59",
+            "type": "fix",
+            "message": "2025-09-29 17:03:59 [AUTO-FIX] Handling issue: 2025-09-29 03:58:52 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:03:59",
+            "type": "fix",
+            "message": "2025-09-29 17:03:59 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:02",
+            "type": "fix",
+            "message": "2025-09-29 17:04:02 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:02",
+            "type": "fix",
+            "message": "2025-09-29 17:04:02 [AUTO-FIX] Handling issue: 2025-09-29 04:11:20 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:02",
+            "type": "fix",
+            "message": "2025-09-29 17:04:02 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:03",
+            "type": "fix",
+            "message": "2025-09-29 17:04:03 [AUTO-FIX] Handling issue: 2025-09-29 04:11:20 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:03",
+            "type": "fix",
+            "message": "2025-09-29 17:04:03 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:03",
+            "type": "fix",
+            "message": "2025-09-29 17:04:03 [AUTO-FIX] Handling issue: 2025-09-29 04:11:25 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:03",
+            "type": "fix",
+            "message": "2025-09-29 17:04:03 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:06",
+            "type": "fix",
+            "message": "2025-09-29 17:04:06 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:06",
+            "type": "fix",
+            "message": "2025-09-29 17:04:06 [AUTO-FIX] Handling issue: 2025-09-29 04:11:25 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:06",
+            "type": "fix",
+            "message": "2025-09-29 17:04:06 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:08",
+            "type": "fix",
+            "message": "2025-09-29 17:04:08 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:08",
+            "type": "fix",
+            "message": "2025-09-29 17:04:08 [AUTO-FIX] Handling issue: 2025-09-29 04:16:05 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:08",
+            "type": "fix",
+            "message": "2025-09-29 17:04:08 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:09",
+            "type": "fix",
+            "message": "2025-09-29 17:04:09 [AUTO-FIX] Handling issue: 2025-09-29 04:16:05 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:09",
+            "type": "fix",
+            "message": "2025-09-29 17:04:09 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:09",
+            "type": "fix",
+            "message": "2025-09-29 17:04:09 [AUTO-FIX] Handling issue: 2025-09-29 04:16:09 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:09",
+            "type": "fix",
+            "message": "2025-09-29 17:04:09 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:12",
+            "type": "fix",
+            "message": "2025-09-29 17:04:12 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:12",
+            "type": "fix",
+            "message": "2025-09-29 17:04:12 [AUTO-FIX] Handling issue: 2025-09-29 04:16:09 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:12",
+            "type": "fix",
+            "message": "2025-09-29 17:04:12 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:14",
+            "type": "fix",
+            "message": "2025-09-29 17:04:14 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:14",
+            "type": "fix",
+            "message": "2025-09-29 17:04:14 [AUTO-FIX] Handling issue: 2025-09-29 04:59:10 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:14",
+            "type": "fix",
+            "message": "2025-09-29 17:04:14 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:16",
+            "type": "fix",
+            "message": "2025-09-29 17:04:16 [AUTO-FIX] Handling issue: 2025-09-29 04:59:10 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:16",
+            "type": "fix",
+            "message": "2025-09-29 17:04:16 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:16",
+            "type": "fix",
+            "message": "2025-09-29 17:04:16 [AUTO-FIX] Handling issue: 2025-09-29 04:59:14 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:16",
+            "type": "fix",
+            "message": "2025-09-29 17:04:16 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:18",
+            "type": "fix",
+            "message": "2025-09-29 17:04:18 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:18",
+            "type": "fix",
+            "message": "2025-09-29 17:04:18 [AUTO-FIX] Handling issue: 2025-09-29 04:59:14 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:18",
+            "type": "fix",
+            "message": "2025-09-29 17:04:18 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:20",
+            "type": "fix",
+            "message": "2025-09-29 17:04:20 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:20",
+            "type": "fix",
+            "message": "2025-09-29 17:04:20 [AUTO-FIX] Handling issue: 2025-09-29 16:30:18 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:20",
+            "type": "fix",
+            "message": "2025-09-29 17:04:20 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:22",
+            "type": "fix",
+            "message": "2025-09-29 17:04:22 [AUTO-FIX] Handling issue: 2025-09-29 16:30:18 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:22",
+            "type": "fix",
+            "message": "2025-09-29 17:04:22 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:22",
+            "type": "fix",
+            "message": "2025-09-29 17:04:22 [AUTO-FIX] Handling issue: 2025-09-29 16:30:26 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:22",
+            "type": "fix",
+            "message": "2025-09-29 17:04:22 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:24",
+            "type": "fix",
+            "message": "2025-09-29 17:04:24 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:24",
+            "type": "fix",
+            "message": "2025-09-29 17:04:24 [AUTO-FIX] Handling issue: 2025-09-29 16:30:26 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:24",
+            "type": "fix",
+            "message": "2025-09-29 17:04:24 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:26",
+            "type": "fix",
+            "message": "2025-09-29 17:04:26 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:26",
+            "type": "fix",
+            "message": "2025-09-29 17:04:26 [AUTO-FIX] Handling issue: 2025-09-29 16:45:12 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:26",
+            "type": "fix",
+            "message": "2025-09-29 17:04:26 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:28",
+            "type": "fix",
+            "message": "2025-09-29 17:04:28 [AUTO-FIX] Handling issue: 2025-09-29 16:45:12 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:28",
+            "type": "fix",
+            "message": "2025-09-29 17:04:28 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:28",
+            "type": "fix",
+            "message": "2025-09-29 17:04:28 [AUTO-FIX] Handling issue: 2025-09-29 16:45:16 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:28",
+            "type": "fix",
+            "message": "2025-09-29 17:04:28 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:30",
+            "type": "fix",
+            "message": "2025-09-29 17:04:30 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:30",
+            "type": "fix",
+            "message": "2025-09-29 17:04:30 [AUTO-FIX] Handling issue: 2025-09-29 16:45:16 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:30",
+            "type": "fix",
+            "message": "2025-09-29 17:04:30 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:33",
+            "type": "fix",
+            "message": "2025-09-29 17:04:33 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:33",
+            "type": "fix",
+            "message": "2025-09-29 17:04:33 [AUTO-FIX] Handling issue: 2025-09-29 16:46:18 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:33",
+            "type": "fix",
+            "message": "2025-09-29 17:04:33 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:34",
+            "type": "fix",
+            "message": "2025-09-29 17:04:34 [AUTO-FIX] Handling issue: 2025-09-29 16:46:18 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:34",
+            "type": "fix",
+            "message": "2025-09-29 17:04:34 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:34",
+            "type": "fix",
+            "message": "2025-09-29 17:04:34 [AUTO-FIX] Handling issue: 2025-09-29 16:46:21 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:34",
+            "type": "fix",
+            "message": "2025-09-29 17:04:34 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:36",
+            "type": "fix",
+            "message": "2025-09-29 17:04:36 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:36",
+            "type": "fix",
+            "message": "2025-09-29 17:04:36 [AUTO-FIX] Handling issue: 2025-09-29 16:46:21 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:36",
+            "type": "fix",
+            "message": "2025-09-29 17:04:36 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:39",
+            "type": "fix",
+            "message": "2025-09-29 17:04:39 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:39",
+            "type": "fix",
+            "message": "2025-09-29 17:04:39 [AUTO-FIX] Handling issue: 2025-09-29 16:48:56 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:39",
+            "type": "fix",
+            "message": "2025-09-29 17:04:39 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:40",
+            "type": "fix",
+            "message": "2025-09-29 17:04:40 [AUTO-FIX] Handling issue: 2025-09-29 16:48:56 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:40",
+            "type": "fix",
+            "message": "2025-09-29 17:04:40 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:40",
+            "type": "fix",
+            "message": "2025-09-29 17:04:40 [AUTO-FIX] Handling issue: 2025-09-29 16:48:58 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:40",
+            "type": "fix",
+            "message": "2025-09-29 17:04:40 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:42",
+            "type": "fix",
+            "message": "2025-09-29 17:04:42 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:42",
+            "type": "fix",
+            "message": "2025-09-29 17:04:42 [AUTO-FIX] Handling issue: 2025-09-29 16:48:58 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:42",
+            "type": "fix",
+            "message": "2025-09-29 17:04:42 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:45",
+            "type": "fix",
+            "message": "2025-09-29 17:04:45 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:45",
+            "type": "fix",
+            "message": "2025-09-29 17:04:45 [AUTO-FIX] Handling issue: 2025-09-29 16:49:00 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:45",
+            "type": "fix",
+            "message": "2025-09-29 17:04:45 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:47",
+            "type": "fix",
+            "message": "2025-09-29 17:04:47 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:47",
+            "type": "fix",
+            "message": "2025-09-29 17:04:47 [AUTO-FIX] Handling issue: 2025-09-29 16:49:00 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:47",
+            "type": "fix",
+            "message": "2025-09-29 17:04:47 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:49",
+            "type": "fix",
+            "message": "2025-09-29 17:04:49 [AUTO-FIX] Handling issue: 2025-09-29 16:49:00 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:49",
+            "type": "fix",
+            "message": "2025-09-29 17:04:49 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:49",
+            "type": "fix",
+            "message": "2025-09-29 17:04:49 [AUTO-FIX] Handling issue: 2025-09-29 16:49:02 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:49",
+            "type": "fix",
+            "message": "2025-09-29 17:04:49 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:50",
+            "type": "fix",
+            "message": "2025-09-29 17:04:50 [AUTO-FIX] Handling issue: 2025-09-29 16:49:02 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:50",
+            "type": "fix",
+            "message": "2025-09-29 17:04:50 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:50",
+            "type": "fix",
+            "message": "2025-09-29 17:04:50 [AUTO-FIX] Handling issue: 2025-09-29 16:49:03 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:50",
+            "type": "fix",
+            "message": "2025-09-29 17:04:50 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:52",
+            "type": "fix",
+            "message": "2025-09-29 17:04:52 [AUTO-FIX] Handling issue: 2025-09-29 16:49:03 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:52",
+            "type": "fix",
+            "message": "2025-09-29 17:04:52 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:52",
+            "type": "fix",
+            "message": "2025-09-29 17:04:52 [AUTO-FIX] Handling issue: 2025-09-29 16:49:05 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:52",
+            "type": "fix",
+            "message": "2025-09-29 17:04:52 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:54",
+            "type": "fix",
+            "message": "2025-09-29 17:04:54 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:54",
+            "type": "fix",
+            "message": "2025-09-29 17:04:54 [AUTO-FIX] Handling issue: 2025-09-29 16:49:05 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:54",
+            "type": "fix",
+            "message": "2025-09-29 17:04:54 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:56",
+            "type": "fix",
+            "message": "2025-09-29 17:04:56 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:56",
+            "type": "fix",
+            "message": "2025-09-29 17:04:56 [AUTO-FIX] Handling issue: 2025-09-29 16:49:07 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:56",
+            "type": "fix",
+            "message": "2025-09-29 17:04:56 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:04:59",
+            "type": "fix",
+            "message": "2025-09-29 17:04:59 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:59",
+            "type": "fix",
+            "message": "2025-09-29 17:04:59 [AUTO-FIX] Handling issue: 2025-09-29 16:49:07 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 17:04:59",
+            "type": "fix",
+            "message": "2025-09-29 17:04:59 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:00",
+            "type": "fix",
+            "message": "2025-09-29 17:05:00 [AUTO-FIX] Handling issue: 2025-09-29 16:49:07 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:00",
+            "type": "fix",
+            "message": "2025-09-29 17:05:00 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:00",
+            "type": "fix",
+            "message": "2025-09-29 17:05:00 [AUTO-FIX] Handling issue: 2025-09-29 16:49:09 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:00",
+            "type": "fix",
+            "message": "2025-09-29 17:05:00 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:02",
+            "type": "fix",
+            "message": "2025-09-29 17:05:02 [AUTO-FIX] Handling issue: 2025-09-29 16:49:09 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:02",
+            "type": "fix",
+            "message": "2025-09-29 17:05:02 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:02",
+            "type": "fix",
+            "message": "2025-09-29 17:05:02 [AUTO-FIX] Handling issue: 2025-09-29 16:49:10 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:02",
+            "type": "fix",
+            "message": "2025-09-29 17:05:02 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:03",
+            "type": "fix",
+            "message": "2025-09-29 17:05:03 [AUTO-FIX] Handling issue: 2025-09-29 16:49:10 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:03",
+            "type": "fix",
+            "message": "2025-09-29 17:05:03 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:03",
+            "type": "fix",
+            "message": "2025-09-29 17:05:03 [AUTO-FIX] Handling issue: 2025-09-29 16:49:12 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:03",
+            "type": "fix",
+            "message": "2025-09-29 17:05:03 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:05",
+            "type": "fix",
+            "message": "2025-09-29 17:05:05 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:05",
+            "type": "fix",
+            "message": "2025-09-29 17:05:05 [AUTO-FIX] Handling issue: 2025-09-29 16:49:12 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:05",
+            "type": "fix",
+            "message": "2025-09-29 17:05:05 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:08",
+            "type": "fix",
+            "message": "2025-09-29 17:05:08 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:08",
+            "type": "fix",
+            "message": "2025-09-29 17:05:08 [AUTO-FIX] Handling issue: 2025-09-29 16:49:14 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:08",
+            "type": "fix",
+            "message": "2025-09-29 17:05:08 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:10",
+            "type": "fix",
+            "message": "2025-09-29 17:05:10 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:10",
+            "type": "fix",
+            "message": "2025-09-29 17:05:10 [AUTO-FIX] Handling issue: 2025-09-29 16:49:14 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:10",
+            "type": "fix",
+            "message": "2025-09-29 17:05:10 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:12",
+            "type": "fix",
+            "message": "2025-09-29 17:05:12 [AUTO-FIX] Handling issue: 2025-09-29 16:49:14 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:12",
+            "type": "fix",
+            "message": "2025-09-29 17:05:12 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:12",
+            "type": "fix",
+            "message": "2025-09-29 17:05:12 [AUTO-FIX] Handling issue: 2025-09-29 16:49:16 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:12",
+            "type": "fix",
+            "message": "2025-09-29 17:05:12 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:13",
+            "type": "fix",
+            "message": "2025-09-29 17:05:13 [AUTO-FIX] Handling issue: 2025-09-29 16:49:16 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:13",
+            "type": "fix",
+            "message": "2025-09-29 17:05:13 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:13",
+            "type": "fix",
+            "message": "2025-09-29 17:05:13 [AUTO-FIX] Handling issue: 2025-09-29 16:49:17 [AUTO-FIX] Handling issue: \"2025-09-28 12:00:00 ERROR Something failed in the pipeline\""
+        },
+        {
+            "timestamp": "2025-09-29 17:05:13",
+            "type": "fix",
+            "message": "2025-09-29 17:05:13 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:15",
+            "type": "fix",
+            "message": "2025-09-29 17:05:15 [AUTO-FIX] Handling issue: 2025-09-29 16:49:17 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:15",
+            "type": "fix",
+            "message": "2025-09-29 17:05:15 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:15",
+            "type": "fix",
+            "message": "2025-09-29 17:05:15 [AUTO-FIX] Handling issue: 2025-09-29 16:49:19 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:15",
+            "type": "fix",
+            "message": "2025-09-29 17:05:15 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:16",
+            "type": "fix",
+            "message": "2025-09-29 17:05:16 [AUTO-FIX] Handling issue: 2025-09-29 16:49:19 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:16",
+            "type": "fix",
+            "message": "2025-09-29 17:05:16 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:16",
+            "type": "fix",
+            "message": "2025-09-29 17:05:16 [AUTO-FIX] Handling issue: 2025-09-29 16:49:20 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:16",
+            "type": "fix",
+            "message": "2025-09-29 17:05:16 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:16",
+            "type": "fix",
+            "message": "2025-09-29 17:05:16 [AUTO-FIX] Handling issue: 2025-09-29 16:49:20 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:16",
+            "type": "fix",
+            "message": "2025-09-29 17:05:16 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:18",
+            "type": "fix",
+            "message": "2025-09-29 17:05:18 [AUTO-FIX] Handling issue: 2025-09-29 16:49:20 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:18",
+            "type": "fix",
+            "message": "2025-09-29 17:05:18 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:20",
+            "type": "fix",
+            "message": "2025-09-29 17:05:20 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:20",
+            "type": "fix",
+            "message": "2025-09-29 17:05:20 [AUTO-FIX] Handling issue: 2025-09-29 16:49:20 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:20",
+            "type": "fix",
+            "message": "2025-09-29 17:05:20 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:22",
+            "type": "fix",
+            "message": "2025-09-29 17:05:22 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:22",
+            "type": "fix",
+            "message": "2025-09-29 17:05:22 [AUTO-FIX] Handling issue: 2025-09-29 16:49:22 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:22",
+            "type": "fix",
+            "message": "2025-09-29 17:05:22 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:25",
+            "type": "fix",
+            "message": "2025-09-29 17:05:25 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:25",
+            "type": "fix",
+            "message": "2025-09-29 17:05:25 [AUTO-FIX] Handling issue: 2025-09-29 16:49:23 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:25",
+            "type": "fix",
+            "message": "2025-09-29 17:05:25 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:25",
+            "type": "fix",
+            "message": "2025-09-29 17:05:25 [AUTO-FIX] Handling issue: 2025-09-29 16:49:23 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:25",
+            "type": "fix",
+            "message": "2025-09-29 17:05:25 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:26",
+            "type": "fix",
+            "message": "2025-09-29 17:05:26 [AUTO-FIX] Handling issue: 2025-09-29 16:49:23 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:26",
+            "type": "fix",
+            "message": "2025-09-29 17:05:26 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:28",
+            "type": "fix",
+            "message": "2025-09-29 17:05:28 [AUTO-FIX] Handling issue: 2025-09-29 16:49:23 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:28",
+            "type": "fix",
+            "message": "2025-09-29 17:05:28 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:28",
+            "type": "fix",
+            "message": "2025-09-29 17:05:28 [AUTO-FIX] Handling issue: 2025-09-29 16:49:24 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:28",
+            "type": "fix",
+            "message": "2025-09-29 17:05:28 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:28",
+            "type": "fix",
+            "message": "2025-09-29 17:05:28 [AUTO-FIX] Handling issue: 2025-09-29 16:49:24 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:28",
+            "type": "fix",
+            "message": "2025-09-29 17:05:28 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:29",
+            "type": "fix",
+            "message": "2025-09-29 17:05:29 [AUTO-FIX] Handling issue: 2025-09-29 16:49:24 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:29",
+            "type": "fix",
+            "message": "2025-09-29 17:05:29 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:31",
+            "type": "fix",
+            "message": "2025-09-29 17:05:31 [AUTO-FIX] Handling issue: 2025-09-29 16:49:24 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:31",
+            "type": "fix",
+            "message": "2025-09-29 17:05:31 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:31",
+            "type": "fix",
+            "message": "2025-09-29 17:05:31 [AUTO-FIX] Handling issue: 2025-09-29 16:49:26 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:31",
+            "type": "fix",
+            "message": "2025-09-29 17:05:31 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:31",
+            "type": "fix",
+            "message": "2025-09-29 17:05:31 [AUTO-FIX] Handling issue: 2025-09-29 16:49:26 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:31",
+            "type": "fix",
+            "message": "2025-09-29 17:05:31 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:32",
+            "type": "fix",
+            "message": "2025-09-29 17:05:32 [AUTO-FIX] Handling issue: 2025-09-29 16:49:26 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:32",
+            "type": "fix",
+            "message": "2025-09-29 17:05:32 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:34",
+            "type": "fix",
+            "message": "2025-09-29 17:05:34 [AUTO-FIX] Handling issue: 2025-09-29 16:49:26 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:34",
+            "type": "fix",
+            "message": "2025-09-29 17:05:34 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:34",
+            "type": "fix",
+            "message": "2025-09-29 17:05:34 [AUTO-FIX] Handling issue: 2025-09-29 16:49:27 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:34",
+            "type": "fix",
+            "message": "2025-09-29 17:05:34 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:34",
+            "type": "fix",
+            "message": "2025-09-29 17:05:34 [AUTO-FIX] Handling issue: 2025-09-29 16:49:27 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:34",
+            "type": "fix",
+            "message": "2025-09-29 17:05:34 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:35",
+            "type": "fix",
+            "message": "2025-09-29 17:05:35 [AUTO-FIX] Handling issue: 2025-09-29 16:49:27 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:35",
+            "type": "fix",
+            "message": "2025-09-29 17:05:35 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:37",
+            "type": "fix",
+            "message": "2025-09-29 17:05:37 [AUTO-FIX] Handling issue: 2025-09-29 16:49:27 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:37",
+            "type": "fix",
+            "message": "2025-09-29 17:05:37 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:37",
+            "type": "fix",
+            "message": "2025-09-29 17:05:37 [AUTO-FIX] Handling issue: 2025-09-29 16:49:29 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:37",
+            "type": "fix",
+            "message": "2025-09-29 17:05:37 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:37",
+            "type": "fix",
+            "message": "2025-09-29 17:05:37 [AUTO-FIX] Handling issue: 2025-09-29 16:49:29 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:37",
+            "type": "fix",
+            "message": "2025-09-29 17:05:37 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:38",
+            "type": "fix",
+            "message": "2025-09-29 17:05:38 [AUTO-FIX] Handling issue: 2025-09-29 16:49:29 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': 'Review error logs and fix code issues', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:38",
+            "type": "fix",
+            "message": "2025-09-29 17:05:38 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:41",
+            "type": "fix",
+            "message": "2025-09-29 17:05:41 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:41",
+            "type": "fix",
+            "message": "2025-09-29 17:05:41 [AUTO-FIX] Handling issue: 2025-09-29 16:49:29 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:41",
+            "type": "fix",
+            "message": "2025-09-29 17:05:41 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:43",
+            "type": "fix",
+            "message": "2025-09-29 17:05:43 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:43",
+            "type": "fix",
+            "message": "2025-09-29 17:05:43 [AUTO-FIX] Handling issue: 2025-09-29 16:49:31 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:43",
+            "type": "fix",
+            "message": "2025-09-29 17:05:43 [AUTO-FIX] Retrying tests (max 2)..."
+        },
+        {
+            "timestamp": "2025-09-29 17:05:45",
+            "type": "fix",
+            "message": "2025-09-29 17:05:45 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:45",
+            "type": "fix",
+            "message": "2025-09-29 17:05:45 [AUTO-FIX] Handling issue: 2025-09-29 16:49:31 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:45",
+            "type": "fix",
+            "message": "2025-09-29 17:05:45 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:45",
+            "type": "fix",
+            "message": "2025-09-29 17:05:45 [AUTO-FIX] Handling issue: 2025-09-29 16:49:31 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:45",
+            "type": "fix",
+            "message": "2025-09-29 17:05:45 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:47",
+            "type": "fix",
+            "message": "2025-09-29 17:05:47 [AUTO-FIX] Handling issue: 2025-09-29 16:49:31 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:47",
+            "type": "fix",
+            "message": "2025-09-29 17:05:47 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:48",
+            "type": "fix",
+            "message": "2025-09-29 17:05:48 [AUTO-FIX] Handling issue: 2025-09-29 16:49:31 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:48",
+            "type": "fix",
+            "message": "2025-09-29 17:05:48 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:48",
+            "type": "fix",
+            "message": "2025-09-29 17:05:48 [AUTO-FIX] Handling issue: 2025-09-29 16:49:33 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:48",
+            "type": "fix",
+            "message": "2025-09-29 17:05:48 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:48",
+            "type": "fix",
+            "message": "2025-09-29 17:05:48 [AUTO-FIX] Handling issue: 2025-09-29 16:49:33 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:48",
+            "type": "fix",
+            "message": "2025-09-29 17:05:48 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:50",
+            "type": "fix",
+            "message": "2025-09-29 17:05:50 [AUTO-FIX] Handling issue: 2025-09-29 16:49:33 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:50",
+            "type": "fix",
+            "message": "2025-09-29 17:05:50 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:51",
+            "type": "fix",
+            "message": "2025-09-29 17:05:51 [AUTO-FIX] Handling issue: 2025-09-29 16:49:33 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:51",
+            "type": "fix",
+            "message": "2025-09-29 17:05:51 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:51",
+            "type": "fix",
+            "message": "2025-09-29 17:05:51 [AUTO-FIX] Handling issue: 2025-09-29 16:49:35 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:51",
+            "type": "fix",
+            "message": "2025-09-29 17:05:51 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:51",
+            "type": "fix",
+            "message": "2025-09-29 17:05:51 [AUTO-FIX] Handling issue: 2025-09-29 16:49:35 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:51",
+            "type": "fix",
+            "message": "2025-09-29 17:05:51 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:53",
+            "type": "fix",
+            "message": "2025-09-29 17:05:53 [AUTO-FIX] Handling issue: 2025-09-29 16:49:35 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': 'Investigate system resources and network connectivity', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:53",
+            "type": "fix",
+            "message": "2025-09-29 17:05:53 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:54",
+            "type": "fix",
+            "message": "2025-09-29 17:05:54 [AUTO-FIX] Handling issue: 2025-09-29 16:49:35 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:54",
+            "type": "fix",
+            "message": "2025-09-29 17:05:54 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:54",
+            "type": "fix",
+            "message": "2025-09-29 17:05:54 [AUTO-FIX] Handling issue: 2025-09-29 16:49:37 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:54",
+            "type": "fix",
+            "message": "2025-09-29 17:05:54 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:54",
+            "type": "fix",
+            "message": "2025-09-29 17:05:54 [AUTO-FIX] Handling issue: 2025-09-29 16:49:37 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:54",
+            "type": "fix",
+            "message": "2025-09-29 17:05:54 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:56",
+            "type": "fix",
+            "message": "2025-09-29 17:05:56 [AUTO-FIX] Handling issue: 2025-09-29 16:49:37 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '1. Summary: A simulated failure occurred during the testing of the CI/CD pipeline.\\n2. Suggested fix: Check the configuration of the simulation failure in the CI/CD pipeline.\\n3. Severity: Medium - The error is related to the testing process, but it could effect the production pipeline if the simulation failures are not correctly configured.', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:56",
+            "type": "fix",
+            "message": "2025-09-29 17:05:56 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:57",
+            "type": "fix",
+            "message": "2025-09-29 17:05:57 [AUTO-FIX] Handling issue: 2025-09-29 16:49:37 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:57",
+            "type": "fix",
+            "message": "2025-09-29 17:05:57 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:57",
+            "type": "fix",
+            "message": "2025-09-29 17:05:57 [AUTO-FIX] Handling issue: 2025-09-29 16:49:38 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:57",
+            "type": "fix",
+            "message": "2025-09-29 17:05:57 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:57",
+            "type": "fix",
+            "message": "2025-09-29 17:05:57 [AUTO-FIX] Handling issue: 2025-09-29 16:49:38 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:57",
+            "type": "fix",
+            "message": "2025-09-29 17:05:57 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:59",
+            "type": "fix",
+            "message": "2025-09-29 17:05:59 [AUTO-FIX] Handling issue: 2025-09-29 16:49:38 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': '1. A failure occurred during a GET request to the /fail endpoint at 2025-09-29 00:09:31,307 with an error being thrown.\\n2. Check the configuration of your application or CI/CD pipeline for any misrouting or incorrect routing to the /fail endpoint.\\n3. Medium: This error may not directly impact the availability or functionality of your application, but it is worth investigating to ensure proper configuration and prevent potential larger issues down the line.', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:05:59",
+            "type": "fix",
+            "message": "2025-09-29 17:05:59 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:00",
+            "type": "fix",
+            "message": "2025-09-29 17:06:00 [AUTO-FIX] Handling issue: 2025-09-29 16:49:38 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:00",
+            "type": "fix",
+            "message": "2025-09-29 17:06:00 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:00",
+            "type": "fix",
+            "message": "2025-09-29 17:06:00 [AUTO-FIX] Handling issue: 2025-09-29 16:49:40 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:00",
+            "type": "fix",
+            "message": "2025-09-29 17:06:00 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:00",
+            "type": "fix",
+            "message": "2025-09-29 17:06:00 [AUTO-FIX] Handling issue: 2025-09-29 16:49:40 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:00",
+            "type": "fix",
+            "message": "2025-09-29 17:06:00 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:02",
+            "type": "fix",
+            "message": "2025-09-29 17:06:02 [AUTO-FIX] Handling issue: 2025-09-29 16:49:40 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': '1. Summary: This is not a real error but a simulated exception thrown intentionally for testing the CI/CD pipeline.\\n2. Fix: No action needed as this was a deliberate action for testing purposes.\\n3. Severity: Low.', 'severity': 'low'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:02",
+            "type": "fix",
+            "message": "2025-09-29 17:06:02 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:03",
+            "type": "fix",
+            "message": "2025-09-29 17:06:03 [AUTO-FIX] Handling issue: 2025-09-29 16:49:40 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:03",
+            "type": "fix",
+            "message": "2025-09-29 17:06:03 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:03",
+            "type": "fix",
+            "message": "2025-09-29 17:06:03 [AUTO-FIX] Handling issue: 2025-09-29 16:49:41 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:03",
+            "type": "fix",
+            "message": "2025-09-29 17:06:03 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:03",
+            "type": "fix",
+            "message": "2025-09-29 17:06:03 [AUTO-FIX] Handling issue: 2025-09-29 16:49:41 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:03",
+            "type": "fix",
+            "message": "2025-09-29 17:06:03 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:05",
+            "type": "fix",
+            "message": "2025-09-29 17:06:05 [AUTO-FIX] Handling issue: 2025-09-29 16:49:41 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': \"1. Summary: A simulated failure occurred during the testing of the CI/CD pipeline.\\n2. Suggested fix: Check the pipeline configuration and test scripts for any errors, then retry the simulation.\\n3. Severity: Low. The issue occurred during testing, and it's expected to fail as part of the testing process. However, it should be addressed to ensure successful builds and deployments.\", 'severity': 'low'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:05",
+            "type": "fix",
+            "message": "2025-09-29 17:06:05 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:06",
+            "type": "fix",
+            "message": "2025-09-29 17:06:06 [AUTO-FIX] Handling issue: 2025-09-29 16:49:41 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:06",
+            "type": "fix",
+            "message": "2025-09-29 17:06:06 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:06",
+            "type": "fix",
+            "message": "2025-09-29 17:06:06 [AUTO-FIX] Handling issue: 2025-09-29 16:49:43 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:06",
+            "type": "fix",
+            "message": "2025-09-29 17:06:06 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:06",
+            "type": "fix",
+            "message": "2025-09-29 17:06:06 [AUTO-FIX] Handling issue: 2025-09-29 16:49:43 [AUTO-FIX] Injecting env var PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:06",
+            "type": "fix",
+            "message": "2025-09-29 17:06:06 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:08",
+            "type": "fix",
+            "message": "2025-09-29 17:06:08 [AUTO-FIX] Handling issue: 2025-09-29 16:49:43 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': \"1. Summary of the issue: An error occurred in the pipeline, but no specific information about the failure was provided in the log.\\n2. Suggested fix: Check the pipeline logs for more detailed information about the failure and address the identified issue.\\n3. Severity: Medium - An error in the pipeline could potentially halt the deployment process, but without more information, it's not clear if this error is affecting production or not.\", 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-09-29 17:06:08",
+            "type": "fix",
+            "message": "2025-09-29 17:06:08 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:17",
+            "type": "fix",
+            "message": "2025-10-27 14:39:17 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 14:39:17",
+            "type": "fix",
+            "message": "2025-10-27 14:39:17 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:24",
+            "type": "fix",
+            "message": "2025-10-27 14:39:24 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:24",
+            "type": "fix",
+            "message": "2025-10-27 14:39:24 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-10-27 14:39:28",
+            "type": "fix",
+            "message": "2025-10-27 14:39:28 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:28",
+            "type": "fix",
+            "message": "2025-10-27 14:39:28 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:28",
+            "type": "fix",
+            "message": "2025-10-27 14:39:28 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:30",
+            "type": "fix",
+            "message": "2025-10-27 14:39:30 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 14:39:30",
+            "type": "fix",
+            "message": "2025-10-27 14:39:30 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:31",
+            "type": "fix",
+            "message": "2025-10-27 14:39:31 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 14:39:31",
+            "type": "fix",
+            "message": "2025-10-27 14:39:31 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:33",
+            "type": "fix",
+            "message": "2025-10-27 14:39:33 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:33",
+            "type": "fix",
+            "message": "2025-10-27 14:39:33 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-10-27 14:39:36",
+            "type": "fix",
+            "message": "2025-10-27 14:39:36 [AUTO-FIX] Tests passed on retry 1"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:36",
+            "type": "fix",
+            "message": "2025-10-27 14:39:36 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:36",
+            "type": "fix",
+            "message": "2025-10-27 14:39:36 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:38",
+            "type": "fix",
+            "message": "2025-10-27 14:39:38 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 14:39:38",
+            "type": "fix",
+            "message": "2025-10-27 14:39:38 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:40",
+            "type": "fix",
+            "message": "2025-10-27 14:39:40 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 14:39:40",
+            "type": "fix",
+            "message": "2025-10-27 14:39:40 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:41",
+            "type": "fix",
+            "message": "2025-10-27 14:39:41 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-10-27 14:39:41",
+            "type": "fix",
+            "message": "2025-10-27 14:39:41 [AUTO-FIX] Retrying tests (max 1)..."
+        },
+        {
+            "timestamp": "2025-10-27 15:03:31",
+            "type": "fix",
+            "message": "2025-10-27 15:03:31 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 15:03:31",
+            "type": "fix",
+            "message": "2025-10-27 15:03:31 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:33",
+            "type": "fix",
+            "message": "2025-10-27 15:03:33 [AUTO-FIX] Handling issue: 2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:33",
+            "type": "fix",
+            "message": "2025-10-27 15:03:33 [AUTO-FIX] Re-running tests (Attempt 1/1)"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:36",
+            "type": "fix",
+            "message": "2025-10-27 15:03:36 [AUTO-FIX] Retry 1 failed"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:36",
+            "type": "fix",
+            "message": "2025-10-27 15:03:36 [AUTO-FIX] Handling issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:36",
+            "type": "fix",
+            "message": "2025-10-27 15:03:36 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:38",
+            "type": "fix",
+            "message": "2025-10-27 15:03:38 [AUTO-FIX] Handling issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 15:03:38",
+            "type": "fix",
+            "message": "2025-10-27 15:03:38 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:40",
+            "type": "fix",
+            "message": "2025-10-27 15:03:40 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 15:03:40",
+            "type": "fix",
+            "message": "2025-10-27 15:03:40 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:43",
+            "type": "fix",
+            "message": "2025-10-27 15:03:43 [AUTO-FIX] Handling issue: 2025-09-29 03:55:48,761 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:43",
+            "type": "fix",
+            "message": "2025-10-27 15:03:43 [AUTO-FIX] Re-running tests (Attempt 1/1)"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:46",
+            "type": "fix",
+            "message": "2025-10-27 15:03:46 [AUTO-FIX] Retry 1 failed"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:46",
+            "type": "fix",
+            "message": "2025-10-27 15:03:46 [AUTO-FIX] Skipping duplicate issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:46",
+            "type": "fix",
+            "message": "2025-10-27 15:03:46 [AUTO-FIX] Skipping duplicate issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 15:03:46",
+            "type": "fix",
+            "message": "2025-10-27 15:03:46 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 15:03:46",
+            "type": "fix",
+            "message": "2025-10-27 15:03:46 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:48",
+            "type": "fix",
+            "message": "2025-10-27 15:03:48 [AUTO-FIX] Handling issue: 2025-09-29 04:51:09,649 [ERROR] Exception on /fail [GET]"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:48",
+            "type": "fix",
+            "message": "2025-10-27 15:03:48 [AUTO-FIX] Re-running tests (Attempt 1/1)"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:51",
+            "type": "fix",
+            "message": "2025-10-27 15:03:51 [AUTO-FIX] Retry 1 failed"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:51",
+            "type": "fix",
+            "message": "2025-10-27 15:03:51 [AUTO-FIX] Skipping duplicate issue: raise Exception(\"Simulated failure for testing CI/CD pipeline.\")"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:51",
+            "type": "fix",
+            "message": "2025-10-27 15:03:51 [AUTO-FIX] Skipping duplicate issue: Exception: Simulated failure for testing CI/CD pipeline."
+        },
+        {
+            "timestamp": "2025-10-27 15:03:51",
+            "type": "fix",
+            "message": "2025-10-27 15:03:51 [AUTO-FIX] Handling issue: \"2025-09-28 12:00:00 ERROR Something failed in the pipeline\""
+        },
+        {
+            "timestamp": "2025-10-27 15:03:51",
+            "type": "fix",
+            "message": "2025-10-27 15:03:51 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:53",
+            "type": "fix",
+            "message": "2025-10-27 15:03:53 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:53",
+            "type": "fix",
+            "message": "2025-10-27 15:03:53 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:55",
+            "type": "fix",
+            "message": "2025-10-27 15:03:55 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:55",
+            "type": "fix",
+            "message": "2025-10-27 15:03:55 [AUTO-FIX] Injecting environment variable PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:55",
+            "type": "fix",
+            "message": "2025-10-27 15:03:55 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:55",
+            "type": "fix",
+            "message": "2025-10-27 15:03:55 [AUTO-FIX] Re-running tests (Attempt 1/1)"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:58",
+            "type": "fix",
+            "message": "2025-10-27 15:03:58 [AUTO-FIX] Retry 1 failed"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:58",
+            "type": "fix",
+            "message": "2025-10-27 15:03:58 [AUTO-FIX] Skipping duplicate issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:58",
+            "type": "fix",
+            "message": "2025-10-27 15:03:58 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:03:58",
+            "type": "fix",
+            "message": "2025-10-27 15:03:58 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:00",
+            "type": "fix",
+            "message": "2025-10-27 15:04:00 [AUTO-FIX] Skipping duplicate issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:00",
+            "type": "fix",
+            "message": "2025-10-27 15:04:00 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:00",
+            "type": "fix",
+            "message": "2025-10-27 15:04:00 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:02",
+            "type": "fix",
+            "message": "2025-10-27 15:04:02 [AUTO-FIX] Skipping duplicate issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:02",
+            "type": "fix",
+            "message": "2025-10-27 15:04:02 [AUTO-FIX] Handling issue: 2025-09-29 01:59:16 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': '[HF API ERROR] ', 'severity': 'unknown'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:02",
+            "type": "fix",
+            "message": "2025-10-27 15:04:02 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:03",
+            "type": "fix",
+            "message": "2025-10-27 15:04:03 [AUTO-FIX] Skipping duplicate issue: 2025-09-29 01:59:16 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:03",
+            "type": "fix",
+            "message": "2025-10-27 15:04:03 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:03",
+            "type": "fix",
+            "message": "2025-10-27 15:04:03 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:05",
+            "type": "fix",
+            "message": "2025-10-27 15:04:05 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:05",
+            "type": "fix",
+            "message": "2025-10-27 15:04:05 [AUTO-FIX] Injecting environment variable PIPELINE_FALLBACK=enabled"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:05",
+            "type": "fix",
+            "message": "2025-10-27 15:04:05 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Exception on /fail [GET]', 'suggestion': 'Review error logs and fix code issues', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:05",
+            "type": "fix",
+            "message": "2025-10-27 15:04:05 [AUTO-FIX] Re-running tests (Attempt 1/1)"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:08",
+            "type": "fix",
+            "message": "2025-10-27 15:04:08 [AUTO-FIX] Retry 1 failed"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:08",
+            "type": "fix",
+            "message": "2025-10-27 15:04:08 [AUTO-FIX] Skipping duplicate issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:08",
+            "type": "fix",
+            "message": "2025-10-27 15:04:08 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'raise Exception(\"Simulated failure for testing CI/CD pipeline.\")', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:08",
+            "type": "fix",
+            "message": "2025-10-27 15:04:08 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:10",
+            "type": "fix",
+            "message": "2025-10-27 15:04:10 [AUTO-FIX] Skipping duplicate issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:10",
+            "type": "fix",
+            "message": "2025-10-27 15:04:10 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': 'Exception: Simulated failure for testing CI/CD pipeline.', 'suggestion': 'Check CI/CD pipeline configuration and retry deployment', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:10",
+            "type": "fix",
+            "message": "2025-10-27 15:04:10 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:12",
+            "type": "fix",
+            "message": "2025-10-27 15:04:12 [AUTO-FIX] Skipping duplicate issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:12",
+            "type": "fix",
+            "message": "2025-10-27 15:04:12 [AUTO-FIX] Handling issue: 2025-09-29 02:32:39 [AUTO-FIX] Handling issue: {'error': '\"2025-09-28 12:00:00 ERROR Something failed in the pipeline\"', 'suggestion': 'Investigate system resources and network connectivity', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:12",
+            "type": "fix",
+            "message": "2025-10-27 15:04:12 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:13",
+            "type": "fix",
+            "message": "2025-10-27 15:04:13 [AUTO-FIX] Skipping duplicate issue: 2025-09-29 02:32:39 [AUTO-FIX] No auto-fix rule for Other"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:13",
+            "type": "fix",
+            "message": "2025-10-27 15:04:13 [AUTO-FIX] Handling issue: 2025-09-29 03:20:11 [AUTO-FIX] Handling issue: {'error': '2025-09-29 00:09:31,307 [ERROR] Failure occurred: Simulated failure for testing CI/CD pipeline.', 'suggestion': '1. Summary: A simulated failure occurred during the testing of the CI/CD pipeline.\\n2. Suggested fix: Check the configuration of the simulation failure in the CI/CD pipeline.\\n3. Severity: Medium - The error is related to the testing process, but it could effect the production pipeline if the simulation failures are not correctly configured.', 'severity': 'medium'}"
+        },
+        {
+            "timestamp": "2025-10-27 15:04:13",
+            "type": "fix",
+            "message": "2025-10-27 15:04:13 [AUTO-FIX] Rolling back flask to version 2.2.5"
+        }
+    ]
+}

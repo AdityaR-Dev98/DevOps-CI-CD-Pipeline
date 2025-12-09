@@ -1,0 +1,94 @@
+[
+    {
+        "file": "buggy10_complex_combination.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy10_complex_combination.py\", line 11, in <module>\n    result = process_data(numbers)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy10_complex_combination.py\", line 6, in process_data\n    config = json.load(open(\"config.json\"))\n                       ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'config.json'\n",
+        "ai_suggestion": "The following error occurred:\nTraceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy10_complex_combination.py\", line 11, in <module>\n    result = process_data(numbers)\n             ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy10_complex_combination.py\", line 6, in process_data\n    config = json.load(open(\"config.json\"))\n                       ^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'config.json'\n\n\nCode possibly responsible:\n\nimport json\n\ndef process_data(data):\n    avg = sum(data) / len(data)\n    config = json.load(open(\"config.json\"))\n    print(\"Configuration loaded:\", config[\"version\"])\n    return avg * config[\"scale\"]\n\nnumbers = [1, 2, 3, 4, 5]\nresult = process_data(numbers)\nprint(\"Result:\", result)\n\nFile: C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy10_complex_combination.py\nLine: 11\n\nSuggest one code fix (with corrected lines) and explain why it solves the issue.",
+        "ai_explanation": "This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.",
+        "fixed_file": "buggy_examples\\buggy10_complex_combination_fixed.py",
+        "final_status": "failed_after_fix",
+        "final_output": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy10_complex_combination_fixed.py\", line 1\n    The following error occurred:\n        ^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    },
+    {
+        "file": "buggy1_syntax_error.py",
+        "initial_status": "failed",
+        "initial_error": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy1_syntax_error.py\", line 1\n    def add_numbers(a, b)\n                         ^\nSyntaxError: expected ':'\n",
+        "ai_suggestion": "The following error occurred:\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy1_syntax_error.py\", line 1\n    def add_numbers(a, b)\n                         ^\nSyntaxError: expected ':'\n\n\nCode possibly responsible:\ndef add_numbers(a, b)\n    return a + b\n\nprint(add_numbers(5, 10))\n\n\n\nFile: C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy1_syntax_error.py\nLine: 1\n\nSuggest one code fix (with corrected lines) and explain why it solves the issue.",
+        "ai_explanation": "This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.",
+        "fixed_file": "buggy_examples\\buggy1_syntax_error_fixed.py",
+        "final_status": "failed_after_fix",
+        "final_output": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy1_syntax_error_fixed.py\", line 1\n    The following error occurred:\n        ^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    },
+    {
+        "file": "buggy2_zero_division.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy2_zero_division.py\", line 4, in <module>\n    print(calculate_average([]))\n          ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy2_zero_division.py\", line 2, in calculate_average\n    return sum(numbers) / len(numbers)\n           ~~~~~~~~~~~~~^~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n",
+        "ai_suggestion": "The following error occurred:\nTraceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy2_zero_division.py\", line 4, in <module>\n    print(calculate_average([]))\n          ^^^^^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy2_zero_division.py\", line 2, in calculate_average\n    return sum(numbers) / len(numbers)\n           ~~~~~~~~~~~~~^~~~~~~~~~~~~~\nZeroDivisionError: division by zero\n\n\nCode possibly responsible:\ndef calculate_average(numbers):\n    return sum(numbers) / len(numbers)\n\nprint(calculate_average([]))\n\nFile: C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy2_zero_division.py\nLine: 4\n\nSuggest one code fix (with corrected lines) and explain why it solves the issue.",
+        "ai_explanation": "This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.",
+        "fixed_file": "buggy_examples\\buggy2_zero_division_fixed.py",
+        "final_status": "failed_after_fix",
+        "final_output": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy2_zero_division_fixed.py\", line 1\n    The following error occurred:\n        ^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    },
+    {
+        "file": "buggy3_name_error.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy3_name_error.py\", line 5, in <module>\n    show_name()\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy3_name_error.py\", line 3, in show_name\n    print(\"Hello\", username)\n                   ^^^^^^^^\nNameError: name 'username' is not defined\n",
+        "ai_suggestion": "The following error occurred:\nTraceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy3_name_error.py\", line 5, in <module>\n    show_name()\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy3_name_error.py\", line 3, in show_name\n    print(\"Hello\", username)\n                   ^^^^^^^^\nNameError: name 'username' is not defined\n\n\nCode possibly responsible:\n\ndef show_name():\n    print(\"Hello\", username)\n\nshow_name()\n\n\nFile: C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy3_name_error.py\nLine: 5\n\nSuggest one code fix (with corrected lines) and explain why it solves the issue.",
+        "ai_explanation": "This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.",
+        "fixed_file": "buggy_examples\\buggy3_name_error_fixed.py",
+        "final_status": "failed_after_fix",
+        "final_output": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy3_name_error_fixed.py\", line 1\n    The following error occurred:\n        ^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    },
+    {
+        "file": "buggy4_import_error.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy4_import_error.py\", line 5, in <module>\n    print(generate_random())\n          ^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy4_import_error.py\", line 3, in generate_random\n    return random.randint(1, 100)\n           ^^^^^^\nNameError: name 'random' is not defined. Did you forget to import 'random'?\n",
+        "ai_suggestion": "The following error occurred:\nTraceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy4_import_error.py\", line 5, in <module>\n    print(generate_random())\n          ^^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy4_import_error.py\", line 3, in generate_random\n    return random.randint(1, 100)\n           ^^^^^^\nNameError: name 'random' is not defined. Did you forget to import 'random'?\n\n\nCode possibly responsible:\n\ndef generate_random():\n    return random.randint(1, 100)\n\nprint(generate_random())\n\n\nFile: C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy4_import_error.py\nLine: 5\n\nSuggest one code fix (with corrected lines) and explain why it solves the issue.",
+        "ai_explanation": "This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.",
+        "fixed_file": "buggy_examples\\buggy4_import_error_fixed.py",
+        "final_status": "failed_after_fix",
+        "final_output": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy4_import_error_fixed.py\", line 1\n    The following error occurred:\n        ^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    },
+    {
+        "file": "buggy5_file_handling.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy5_file_handling.py\", line 6, in <module>\n    print(read_data())\n          ^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy5_file_handling.py\", line 3, in read_data\n    with open(\"nonexistent_file.txt\", \"r\") as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'\n",
+        "ai_suggestion": "The following error occurred:\nTraceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy5_file_handling.py\", line 6, in <module>\n    print(read_data())\n          ^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy5_file_handling.py\", line 3, in read_data\n    with open(\"nonexistent_file.txt\", \"r\") as f:\n         ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^\nFileNotFoundError: [Errno 2] No such file or directory: 'nonexistent_file.txt'\n\n\nCode possibly responsible:\n\ndef read_data():\n    with open(\"nonexistent_file.txt\", \"r\") as f:\n        return f.read()\n\nprint(read_data())\n\nFile: C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy5_file_handling.py\nLine: 6\n\nSuggest one code fix (with corrected lines) and explain why it solves the issue.",
+        "ai_explanation": "This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.",
+        "fixed_file": "buggy_examples\\buggy5_file_handling_fixed.py",
+        "final_status": "failed_after_fix",
+        "final_output": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy5_file_handling_fixed.py\", line 1\n    The following error occurred:\n        ^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    },
+    {
+        "file": "buggy6_logic_error.py",
+        "initial_status": "passed_initially",
+        "final_status": "passed",
+        "ai_used": false
+    },
+    {
+        "file": "buggy7_type_error.py",
+        "initial_status": "passed_initially",
+        "final_status": "passed",
+        "ai_used": false
+    },
+    {
+        "file": "buggy8_api_call.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy8_api_call.py\", line 9, in <module>\n    print(get_user_data(1))\n          ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy8_api_call.py\", line 7, in get_user_data\n    return response.json()[\"non_existent_key\"]\n           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\nKeyError: 'non_existent_key'\n",
+        "ai_suggestion": "The following error occurred:\nTraceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy8_api_call.py\", line 9, in <module>\n    print(get_user_data(1))\n          ^^^^^^^^^^^^^^^^\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy8_api_call.py\", line 7, in get_user_data\n    return response.json()[\"non_existent_key\"]\n           ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^\nKeyError: 'non_existent_key'\n\n\nCode possibly responsible:\n\nimport requests\n\ndef get_user_data(user_id):\n    url = f\"https://jsonplaceholder.typicode.com/users/{user_id}\"\n    response = requests.get(url)\n    return response.json()[\"non_existent_key\"]\n\nprint(get_user_data(1))\n\nFile: C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy8_api_call.py\nLine: 9\n\nSuggest one code fix (with corrected lines) and explain why it solves the issue.",
+        "ai_explanation": "This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.",
+        "fixed_file": "buggy_examples\\buggy8_api_call_fixed.py",
+        "final_status": "failed_after_fix",
+        "final_output": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy8_api_call_fixed.py\", line 1\n    The following error occurred:\n        ^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    },
+    {
+        "file": "buggy9_class_inheritance.py",
+        "initial_status": "failed",
+        "initial_error": "Traceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy9_class_inheritance.py\", line 12, in <module>\n    d.bark()\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy9_class_inheritance.py\", line 9, in bark\n    super().speak(self)\nTypeError: Animal.speak() takes 1 positional argument but 2 were given\n",
+        "ai_suggestion": "The following error occurred:\nTraceback (most recent call last):\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy9_class_inheritance.py\", line 12, in <module>\n    d.bark()\n  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy9_class_inheritance.py\", line 9, in bark\n    super().speak(self)\nTypeError: Animal.speak() takes 1 positional argument but 2 were given\n\n\nCode possibly responsible:\n\nclass Animal:\n    def speak(self):\n        print(\"Animal speaks\")\n\nclass Dog(Animal):\n    def bark(self):\n        print(\"Dog barks\")\n        super().speak(self)\n\nd = Dog()\nd.bark()\n\nFile: C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy9_class_inheritance.py\nLine: 12\n\nSuggest one code fix (with corrected lines) and explain why it solves the issue.",
+        "ai_explanation": "This fix was generated after analyzing traceback context and mapping common Python error-resolution patterns.",
+        "fixed_file": "buggy_examples\\buggy9_class_inheritance_fixed.py",
+        "final_status": "failed_after_fix",
+        "final_output": "  File \"C:\\Users\\prakh\\Downloads\\ci-cd-pipeline\\buggy_examples\\buggy9_class_inheritance_fixed.py\", line 1\n    The following error occurred:\n        ^^^^^^^^^\nSyntaxError: invalid syntax\n"
+    }
+]
