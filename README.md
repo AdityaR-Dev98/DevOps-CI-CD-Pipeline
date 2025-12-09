@@ -56,7 +56,7 @@ The Streamlit dashboard visualizes:
 
 | Category | Tools |
 |----------|-------|
-| CI/CD | GitHub Actions, Jenkins |
+| CI/CD | GitHub Actions |
 | AI/ML | PyTorch, TensorFlow, Scikit-Learn, GPT-based LLM |
 | Monitoring | Streamlit, Plotly |
 | DevOps Runtime | Docker, Kubernetes |
