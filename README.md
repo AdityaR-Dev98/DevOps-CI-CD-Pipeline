@@ -83,8 +83,6 @@ The Streamlit dashboard visualizes:
 | Success Rate | 70% | **90%** |
 | Downtime | 35.2s | **8.1s** |
 
-*(Table 3 on page 15)* :contentReference[oaicite:5]{index=5}
-
 ---
 
 ## 🎯 Use Cases
