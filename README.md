@@ -21,7 +21,7 @@ The framework integrates **ML-based anomaly detection**, **LLM-based automated c
 
 ## 🧠 System Workflow
 
-The workflow diagram on **page 10** of the paper shows the automated recovery loop from fault detection to dashboard visualization.  
+The workflow includes the automated recovery loop from fault detection to dashboard visualization.  
 It includes: commit → pipeline execution → anomaly detection → AI fix suggestion → auto retest → dashboard update.  
 
 ---
